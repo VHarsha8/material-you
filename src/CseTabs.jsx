@@ -1,11 +1,11 @@
 import { useState } from 'react';
 
 function CseTabs() {
-    const [selectedDept, setSelectedDept] = useState("CSE_ECE_IT");
+    const [selectedDept, setSelectedDept] = useState("CSE_AIML_IT");
 
     // Data for each department
     const departmentData = {
-        CSE_ECE_IT: [
+        CSE_AIML_IT: [
             {
                 event: "Paper Presentation",
                 topics: [
@@ -92,7 +92,7 @@ function CseTabs() {
                 ]
             },
             {
-                event: "Technical Quiz",
+                event: "Technical Quiz (IT)",
                 topics: [
                     "Qualifying for Round-1 Top-10 Teams Multiple Choice questions.",
                     "Qualifying for Round-2 Top-5 Teams Multiple Choice questions.",
@@ -264,6 +264,72 @@ function CseTabs() {
                 ]
             }
         ],
+        ECE: [
+            {
+                event: "Poster Presentation",
+                topics: [
+                    "Participants must present their designs with explanations.",
+                    "Max two authors per paper."
+                ],
+                prize: "-",
+                facultycoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ],
+                studentcoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ]
+            },
+            {
+                event: "Robo Race",
+                topics: [
+                    "Control robots to compete in a race.",
+                    "Track provided on the event day."
+                ],
+                prize: "-",
+                facultycoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ],
+                studentcoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ]
+            },
+            {
+                event: "Project Expo",
+                topics: [
+                    "Display electrical projects.",
+                    "Judging based on innovation and design."
+                ],
+                prize: "-",
+                facultycoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ],
+                studentcoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ]
+            },
+            {
+                event: "Quiz",
+                topics: [
+                    "Technical quiz on electrical circuits and systems.",
+                    "Max 2 participants per team."
+                ],
+                prize: "-",
+                facultycoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ],
+                studentcoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ]
+            }
+        ],
         CIVIL: [
             {
                 event: "Bridge Design",
@@ -367,7 +433,7 @@ function CseTabs() {
         <div className="flex flex-col my-6 mx-6">
             {/* Department Selection Buttons */}
             <div className="flex flex-wrap gap-4 px-4 py-2 md:px-0 md:items-center md:justify-center md:gap-10">
-                {["CSE_ECE_IT", "MECH", "EEE", "CIVIL"].map((dept) => (
+                {["CSE_AIML_IT", "MECH", "EEE", "CIVIL", "ECE"].map((dept) => (
                     <button
                         key={dept}
                         onClick={() => setSelectedDept(dept)}
@@ -383,7 +449,7 @@ function CseTabs() {
             <div className="flex flex-col w-full px-4 my-5 md:px-10">
                 <div className='flex'>
                     <h1 className="px-3 py-2 text-xs md:text-sm text-gray-600 border border-gray-400 rounded-full backdrop-filter backdrop-blur-xl bg-green-400/40 font-poppins text-center">
-                    {selectedDept === "CSE_ECE_IT" ? "CSE | ECE | IT" : selectedDept}
+                    {selectedDept === "CSE_AIML_IT" ? "CSE | ECE | IT" : selectedDept}
                 </h1>
                 </div>
             </div>
