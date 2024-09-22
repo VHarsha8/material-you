@@ -276,7 +276,7 @@ function CseTabs() {
                     "G. Shiva",
                     "H. Naveen"
                 ],
-                stydentcoordinators: [
+                studentcoordinators: [
                     "G. Shiva",
                     "H. Naveen"
                 ]
