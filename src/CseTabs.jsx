@@ -16,59 +16,277 @@ function CseTabs() {
                     "Generative AI"
                 ],
                 prize: "5000/- Prize money",
-                winners: "-",
-                coordinators: [
-                    "O.Bharath Kiran",
-                    "Y.Satish Reddy",
-                    "S. Sai Kumar"
+                facultycoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ],
+                studentcoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
                 ]
             },
+            {
+                event: "Hackathon",
+                topics: [
+                    "24-hour coding competition",
+                    "Team size: 3-5",
+                    "Topics will be provided at the event"
+                ],
+                prize: "7000/- Prize money",
+                facultycoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ],
+                studentcoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ]
+            },
+            {
+                event: "Code Debugging",
+                topics: [
+                    "Participants must debug a set of given programs.",
+                    "Time limit: 30 minutes"
+                ],
+                prize: "3000/- Prize money",
+                facultycoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ],
+                studentcoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ]
+            },
+            {
+                event: "Quiz",
+                topics: [
+                    "Technical quiz on CSE, ECE, IT-related topics",
+                    "Maximum of 2 participants per team"
+                ],
+                prize: "2000/- Prize money",
+                facultycoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ],
+                studentcoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ]
+            }
         ],
         MECH: [
             {
                 event: "CAD Design",
                 topics: [
-                    "1. Soft copy of paper with complete details of student (Name, Reg.No, Branch, College Name, Location, Mail-id, Phone number) and PPT should be sent to (mech.epi24@aliet.ac.in)",
-                    "2. Maximum of two authors per paper",
-                    "3. Presentation time will be 10 minutes followed by 5 minutes of Q&A"
+                    "Submit soft copy with complete student details and PPT.",
+                    "Max two authors per paper.",
+                    "Presentation: 8 minutes + 2 minutes for queries."
                 ],
-                prize: "5000/- Prize money",
-                winners: "-",
-                coordinators: [
-                    "P. Harshitha",
-                    "R. Sanjay"
+                prize: "3N1",
+                facultycoordinators: [
+                    "Mrs B Susmitha",
+                    "Dr G G Srinivasu"
+                ],
+                studentcoordinators: [
+                    "Mr Greeshmant",
+                    
                 ]
             },
+            {
+                event: "Spot Event (Catia, Autocad & Assembly & Disassembly)",
+                topics: [
+                    "One participant per team for drafting events.",
+                    "For Assembly & Disassembly of Engine, max 2 participants per team."
+                ],
+                prize: "CAD LAB or 4E1",
+                facultycoordinators: [
+                    "Mr M Srinivas Reddy",
+                    "Mr K Teja Swarup"
+                ],
+                studentcoordinators: [
+                    "Mr. Md Basha",
+                    
+                ]
+            },
+            {
+                event: "Project Expo",
+                topics: [
+                    "Team size: Max 4 members.",
+                    "Prototype presentation.",
+                    "Projects must be safe for public display."
+                ],
+                prize: "MOS LAB",
+                facultycoordinators: [
+                    "Mr. Ch. Ranga Rao",
+                    "Mr. T. Subba Reddy"
+                ],
+                studentcoordinators: [
+                    "Mr. Siroj"
+                ]
+            },
+            {
+                event: "QUIZ",
+                topics: [
+                    "Team size: Max 4 members."
+                ],
+                prize: "4E 8",
+                facultycoordinators: [
+                    "Mr K. Udhay kiran",
+                    "Mr.M. Sudhakar "
+                ],
+                studentcoordinators: [
+                    "Mr. Ajay"
+                ]
+            },
+            {
+                event: "Poster Presentation",
+                topics: [
+                    "Team size: Max 2 members per team.",
+                    "Official language is English.",
+                    "Poster size: max 36”x48” (Printed or A2-Hand Made)."
+                ],
+                prize: "TOM LAB",
+                facultycoordinators: [
+                    "Mr. Ch. Ranga Rao",
+                    "Mr. T. Subba Reddy"
+                ],
+                studentcoordinators: [
+                    "Mr. Siroj"
+                ]
+            }
         ],
         EEE: [
             {
-                event: "Circuit Design",
+                event: "Poster Presentation",
                 topics: [
-                    "1. Participants must present their designs with proper explanations.",
-                    "2. Maximum of two authors per paper."
+                    "Participants must present their designs with explanations.",
+                    "Max two authors per paper."
                 ],
                 prize: "5000/- Prize money",
-                winners: "-",
-                coordinators: [
-                    "S. Satish",
-                    "P. Kumar"
+                facultycoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ],
+                studentcoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
                 ]
             },
+            {
+                event: "Robo Race",
+                topics: [
+                    "Control robots to compete in a race.",
+                    "Track provided on the event day."
+                ],
+                prize: "4000/- Prize money",
+                facultycoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ],
+                studentcoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ]
+            },
+            {
+                event: "Project Expo",
+                topics: [
+                    "Display electrical projects.",
+                    "Judging based on innovation and design."
+                ],
+                prize: "6000/- Prize money",
+                facultycoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ],
+                studentcoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ]
+            },
+            {
+                event: "Quiz",
+                topics: [
+                    "Technical quiz on electrical circuits and systems.",
+                    "Max 2 participants per team."
+                ],
+                prize: "2000/- Prize money",
+                facultycoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ],
+                studentcoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ]
+            }
         ],
         CIVIL: [
             {
                 event: "Bridge Design",
                 topics: [
-                    "1. Civil Engineering",
-                    "2. Structural Analysis"
+                    "Civil Engineering",
+                    "Structural Analysis"
                 ],
                 prize: "6000/- Prize money",
-                winners: "-",
-                coordinators: [
-                    "N. Sai",
-                    "P. Lakshmi"
+                facultycoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ],
+                stydentcoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
                 ]
             },
+            {
+                event: "Surveying Challenge",
+                topics: [
+                    "Hands-on experience with land surveying tools.",
+                    "Survey a designated area."
+                ],
+                prize: "5000/- Prize money",
+                facultycoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ],
+                studentcoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ]
+            },
+            {
+                event: "Concrete Testing",
+                topics: [
+                    "Conduct strength tests on concrete samples.",
+                    "Safety equipment required."
+                ],
+                prize: "4000/- Prize money",
+                facultycoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ],
+                studentcoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ]
+            },
+            {
+                event: "Poster Presentation",
+                topics: [
+                    "Innovative construction techniques.",
+                    "Sustainable materials in civil engineering."
+                ],
+                prize: "3000/- Prize money",
+                facultycoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ],
+                studentcoordinators: [
+                    "G. Shiva",
+                    "H. Naveen"
+                ]
+            }
         ],
     };
 
@@ -85,11 +303,17 @@ function CseTabs() {
                     </ul>
                 </td>
                 <td className="px-4 py-2 border text-xs md:text-lg font-poppins">{item.prize}</td>
-                <td className="px-4 py-2 border text-center text-xs md:text-lg font-poppins">{item.winners}</td>
                 <td className="px-4 py-2 border text-xs md:text-lg font-poppins">
                     <ul className="list-disc list-inside">
-                        {item.coordinators.map((coordinator, idx) => (
-                            <li key={idx}>{coordinator}</li>
+                        {item.facultycoordinators.map((faculty, idx) => (
+                            <li key={idx}>{faculty}</li>
+                        ))}
+                    </ul>
+                </td>
+                <td className="px-4 py-2 border text-xs md:text-lg font-poppins">
+                    <ul className="list-disc list-inside">
+                        {item.studentcoordinators.map((student, idx) => ( // Fixed key name here
+                            <li key={idx}>{student}</li>
                         ))}
                     </ul>
                 </td>
@@ -98,22 +322,21 @@ function CseTabs() {
     };
 
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col my-6 mx-6">
             {/* Department Selection Buttons */}
             <div className="flex flex-wrap gap-4 px-4 py-2 md:px-0 md:items-center md:justify-center md:gap-10">
                 {["CSE_ECE_IT", "MECH", "EEE", "CIVIL"].map((dept) => (
                     <button
                         key={dept}
                         onClick={() => setSelectedDept(dept)}
-                        className={`px-3 py-1 text-xs md:text-lg text-center text-gray-500 border border-gray-400 rounded-md backdrop-filter backdrop-blur-xl bg-green-400/40 font-poppins ${
-                            selectedDept === dept ? "bg-green-500 text-white" : ""
-                        }`}
+                        className={`${
+                            selectedDept === dept ? "bg-blue-500" : "bg-gray-300"
+                        } text-white py-2 px-4 rounded-lg`}
                     >
-                        {dept === "CSE_ECE_IT" ? "CSE | ECE | IT" : dept}
+                        {dept}
                     </button>
                 ))}
             </div>
-
             {/* Department Header */}
             <div className="flex flex-col w-full px-4 my-5 md:px-10">
                 <div className='flex'>
@@ -123,21 +346,19 @@ function CseTabs() {
                 </div>
             </div>
 
-            {/* Table */}
-            <div className="w-full px-4 my-5 overflow-x-auto">
-                <table className="w-full border-collapse table-auto">
+            {/* Event Table */}
+            <div className="overflow-x-auto mt-4">
+                <table className="table-auto w-full border-separate">
                     <thead>
-                        <tr className="bg-darkgreybackground text-white text-xs md:text-xl">
-                            <th className="border border-gray-300 px-2 min-w-[200px] py-2">Event</th>
-                            <th className="border border-gray-300 px-2 py-2">Topics & Rules</th>
-                            <th className="border border-gray-300 px-2 py-2">Prizes</th>
-                            <th className="border border-gray-300 px-2 py-2">Winners</th>
-                            <th className="border border-gray-300 px-2 py-2">Coordinators</th>
+                        <tr className="bg-darkgreybackground">
+                            <th className="px-4 py-2 border text-xs md:text-lg text-white font-poppins">Event</th>
+                            <th className="px-4 py-2 border text-xs md:text-lg text-white font-poppins">Topics</th>
+                            <th className="px-4 py-2 border text-xs md:text-lg text-white font-poppins">Prize</th>
+                            <th className="px-4 py-2 border text-xs md:text-lg text-white font-poppins">Faculty-Coordinators</th>
+                            <th className="px-4 py-2 border text-xs md:text-lg text-white font-poppins">Student Volunteers</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        {renderRows()}
-                    </tbody>
+                    <tbody>{renderRows()}</tbody>
                 </table>
             </div>
         </div>
