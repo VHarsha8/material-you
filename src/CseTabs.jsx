@@ -330,7 +330,7 @@ function CseTabs() {
                         key={dept}
                         onClick={() => setSelectedDept(dept)}
                         className={`${
-                            selectedDept === dept ? "bg-blue-500" : "bg-gray-300"
+                            selectedDept === dept ? "bg-green-600" : "bg-gray-300"
                         } text-white py-2 px-4 rounded-lg`}
                     >
                         {dept}
