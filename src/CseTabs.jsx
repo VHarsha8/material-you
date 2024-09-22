@@ -7,46 +7,58 @@ function CseTabs() {
     const departmentData = {
         CSE_ECE_IT: [
             {
-                event: "Poster Presentation",
+                event: "Paper Presentation",
                 topics: [
-                    "AI",
-                    "ML",
-                    "Blockchain",
-                    "Cybersecurity",
-                    "Generative AI"
+                    "Soft copy of paper with complete details of student (Name, Reg.No, Branch, College Name, Location, Mail-id, Phone number) and PPT should be sent to (cse.epi24@aliet.ac.in)",
+                    "Maximum of two authors per paper.",
+                    "Presentation time should be (8Min) and Queries (2Min) in total 10Min.",
+                    "Full Length paper should be submitted in word file not more than 10 pages. (Abstract should be specified clearly).",
+                    
                 ],
-                prize: "5000/- Prize money",
+                prize: "-",
                 facultycoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "Dr.B.AshaLatha ",
+                    "Mrs.P.Nancy Anurag",
+                    "Mrs K.Neeharika",
+                    "Mr.N.Vijay kumar",
+                    "Mrs.N.V.L.Manaswini"
                 ],
                 studentcoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "Satish.Y(21HP1A05B8)(IV-II)",
+                    "Prashanth.D(22HP1A05B3) (III-II)",
+                    "M.Pratap(23HP1A05I6) (II-III)",
                 ]
             },
             {
-                event: "Hackathon",
+                event: "Spot Event(TUG OF WORDS)",
                 topics: [
-                    "24-hour coding competition",
-                    "Team size: 3-5",
-                    "Topics will be provided at the event"
+                    "1. Team Size Maximim 3 and minimum 1",
+                    "2. Presentation time :2 minutes",
+                    "3. Rule: Keywords should not be repeated"
                 ],
                 prize: "7000/- Prize money",
                 facultycoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "Mrs.Y Karuna Manjusha",
+                    "Mrs.B.Alekhya",
+                    "Mrs.I.Kamalamma",
                 ],
                 studentcoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "P.Pavan Kumar(21HP1A05B4)",
+                    "CH.Nandini(21HP1A0515)",
+                    "R.Tejaswini naga likitha(21HP1A0514)",
+                    "Inith Reddy(22HP1A05A3)",
                 ]
             },
             {
-                event: "Code Debugging",
+                event: "Project Expo(CSD)",
                 topics: [
-                    "Participants must debug a set of given programs.",
-                    "Time limit: 30 minutes"
+                    " Team size: Maximum of 4 members are allowed.",
+                    " Student ID: Student ID Card issued by College is compulsory.",
+                    " Presentation: Should be in Power Point Presentation (ppt) only.",
+                    " Project display: Free-standing and made of durable materials.",
+                    " Project safety: Prohibit experiments that could injure people or animals, or that require adult  consent.",
+                    " Full Length paper should be submitted in word file not more than 10 pages. (Abstract should be specified clearly).",
+                    " Judgement : Judges decision will be final.",
                 ],
                 prize: "3000/- Prize money",
                 facultycoordinators: [
@@ -59,10 +71,15 @@ function CseTabs() {
                 ]
             },
             {
-                event: "Quiz",
+                event: "Poster Presentation(CSM)",
                 topics: [
-                    "Technical quiz on CSE, ECE, IT-related topics",
-                    "Maximum of 2 participants per team"
+                    " Team size: Maximum of 4 members are allowed.",
+                    " Max Posters : Only one poster will be allowed to present per team.",
+                    " Letters & Diagrams : All lettering and diagrams should be large enough to be read from a minimum of 2 feet.",
+                    " Language : The official language for the poster will be English.",
+                    " Poster Size: maximum 36”x48” (Printed or A2-Hand Made).",
+                    " Evaluation of marks : Evaluation of marks  will be based on theme, creativity, efforts taken, scientific content and presentation.",
+                    " Judgement : Decision of the judges/committee will be final.",
                 ],
                 prize: "2000/- Prize money",
                 facultycoordinators: [
@@ -73,14 +90,39 @@ function CseTabs() {
                     "G. Shiva",
                     "H. Naveen"
                 ]
+            },
+            {
+                event: "Technical Quiz",
+                topics: [
+                    "Qualifying for Round-1 Top-10 Teams Multiple Choice questions.",
+                    "Qualifying for Round-2 Top-5 Teams Multiple Choice questions.",
+                    "Qualifying for Round-3 Buzzer Round Top-3 Teams",
+                    "Team size: Maximum of 4 members are allowed.",
+                ],
+                prize: "2000/- Prize money",
+                facultycoordinators: [
+                    "M. Suneela",
+                   
+                ],
+                studentcoordinators: [
+                    "K. Sai Vineela (21HP1A1209)",
+                    "G. Bhavitha (21HP1A1202)",
+                    "K. Nag Lakshmi (21HP1A1214)",
+                    "G. Spoorthi (21HP1A1223)",
+                    "Naga Lokesh (21HP1A1239)",
+                    "J. Mohan Sai (21HP1A1244)",
+                    
+                ]
             }
         ],
         MECH: [
             {
                 event: "CAD Design",
                 topics: [
-                    "Submit soft copy with complete student details and PPT.",
-                    "Max two authors per paper.",
+                    "Qualifying for Round-1 Top-10 Teams Multiple Choice questions.",
+                    "Qualifying for Round-2 Top-5 Teams Multiple Choice questions.",
+                    "Qualifying for Round-3 Buzzer Round Top-3 Teams",
+                    "Team size: Maximum of 4 members are allowed.",
                     "Presentation: 8 minutes + 2 minutes for queries."
                 ],
                 prize: "3N1",
