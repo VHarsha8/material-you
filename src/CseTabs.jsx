@@ -36,7 +36,7 @@ function CseTabs() {
                     "2. Presentation time :2 minutes",
                     "3. Rule: Keywords should not be repeated"
                 ],
-                prize: "7000/- Prize money",
+                prize: "-",
                 facultycoordinators: [
                     "Mrs.Y Karuna Manjusha",
                     "Mrs.B.Alekhya",
@@ -60,7 +60,7 @@ function CseTabs() {
                     " Full Length paper should be submitted in word file not more than 10 pages. (Abstract should be specified clearly).",
                     " Judgement : Judges decision will be final.",
                 ],
-                prize: "3000/- Prize money",
+                prize: "-",
                 facultycoordinators: [
                     "G. Shiva",
                     "H. Naveen"
@@ -81,7 +81,7 @@ function CseTabs() {
                     " Evaluation of marks : Evaluation of marks  will be based on theme, creativity, efforts taken, scientific content and presentation.",
                     " Judgement : Decision of the judges/committee will be final.",
                 ],
-                prize: "2000/- Prize money",
+                prize: "-",
                 facultycoordinators: [
                     "G. Shiva",
                     "H. Naveen"
@@ -99,7 +99,7 @@ function CseTabs() {
                     "Qualifying for Round-3 Buzzer Round Top-3 Teams",
                     "Team size: Maximum of 4 members are allowed.",
                 ],
-                prize: "2000/- Prize money",
+                prize: "-",
                 facultycoordinators: [
                     "M. Suneela",
                    
@@ -205,7 +205,7 @@ function CseTabs() {
                     "Participants must present their designs with explanations.",
                     "Max two authors per paper."
                 ],
-                prize: "5000/- Prize money",
+                prize: "-",
                 facultycoordinators: [
                     "G. Shiva",
                     "H. Naveen"
@@ -221,7 +221,7 @@ function CseTabs() {
                     "Control robots to compete in a race.",
                     "Track provided on the event day."
                 ],
-                prize: "4000/- Prize money",
+                prize: "-",
                 facultycoordinators: [
                     "G. Shiva",
                     "H. Naveen"
@@ -237,7 +237,7 @@ function CseTabs() {
                     "Display electrical projects.",
                     "Judging based on innovation and design."
                 ],
-                prize: "6000/- Prize money",
+                prize: "-",
                 facultycoordinators: [
                     "G. Shiva",
                     "H. Naveen"
@@ -253,7 +253,7 @@ function CseTabs() {
                     "Technical quiz on electrical circuits and systems.",
                     "Max 2 participants per team."
                 ],
-                prize: "2000/- Prize money",
+                prize: "-",
                 facultycoordinators: [
                     "G. Shiva",
                     "H. Naveen"
@@ -271,7 +271,7 @@ function CseTabs() {
                     "Civil Engineering",
                     "Structural Analysis"
                 ],
-                prize: "6000/- Prize money",
+                prize: "-",
                 facultycoordinators: [
                     "G. Shiva",
                     "H. Naveen"
@@ -287,7 +287,7 @@ function CseTabs() {
                     "Hands-on experience with land surveying tools.",
                     "Survey a designated area."
                 ],
-                prize: "5000/- Prize money",
+                prize: "-",
                 facultycoordinators: [
                     "G. Shiva",
                     "H. Naveen"
@@ -303,7 +303,7 @@ function CseTabs() {
                     "Conduct strength tests on concrete samples.",
                     "Safety equipment required."
                 ],
-                prize: "4000/- Prize money",
+                prize: "-",
                 facultycoordinators: [
                     "G. Shiva",
                     "H. Naveen"
@@ -319,7 +319,7 @@ function CseTabs() {
                     "Innovative construction techniques.",
                     "Sustainable materials in civil engineering."
                 ],
-                prize: "3000/- Prize money",
+                prize: "-",
                 facultycoordinators: [
                     "G. Shiva",
                     "H. Naveen"
@@ -344,7 +344,7 @@ function CseTabs() {
                         ))}
                     </ul>
                 </td>
-                <td className="px-4 py-2 border text-xs md:text-lg font-poppins">{item.prize}</td>
+                <td className="px-4 py-2 border text-xs md:text-lg text-center font-poppins">{item.prize}</td>
                 <td className="px-4 py-2 border text-xs md:text-lg font-poppins">
                     <ul className="list-disc list-inside">
                         {item.facultycoordinators.map((faculty, idx) => (
@@ -392,10 +392,10 @@ function CseTabs() {
             <div className="overflow-x-auto mt-4">
                 <table className="table-auto w-full border-separate">
                     <thead>
-                        <tr className="bg-darkgreybackground">
+                        <tr className="bg-darkgreybackground ">
                             <th className="px-4 py-2 border text-xs md:text-lg text-white font-poppins">Event</th>
                             <th className="px-4 py-2 border text-xs md:text-lg text-white font-poppins">Topics</th>
-                            <th className="px-4 py-2 border text-xs md:text-lg text-white font-poppins">Prize</th>
+                            <th className="px-4 py-2 border text-xs  md:text-lg text-white font-poppins">Venue</th>
                             <th className="px-4 py-2 border text-xs md:text-lg text-white font-poppins">Faculty-Coordinators</th>
                             <th className="px-4 py-2 border text-xs md:text-lg text-white font-poppins">Student Volunteers</th>
                         </tr>
