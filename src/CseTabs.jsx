@@ -449,7 +449,7 @@ function CseTabs() {
             <div className="flex flex-col w-full px-4 my-5 md:px-10">
                 <div className='flex'>
                     <h1 className="px-3 py-2 text-xs md:text-sm text-gray-600 border border-gray-400 rounded-full backdrop-filter backdrop-blur-xl bg-green-400/40 font-poppins text-center">
-                    {selectedDept === "CSE_AIML_IT" ? "CSE | ECE | IT" : selectedDept}
+                    {selectedDept === "CSE_AIML_IT" ? "CSE | AIML | IT" : selectedDept}
                 </h1>
                 </div>
             </div>
