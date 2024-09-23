@@ -80,9 +80,9 @@ function EpistemiconHomePage() {
           </div></a> 
 
             <div className="flex md:mt-4 gap-8 cursor-pointer">
-                <h1 className="text-xl font-poppins hover:bg-black hover:text-white duration-200 font-medium py-1 px-4 border-2 border-black">
+                <button className="text-xl font-poppins hover:bg-black hover:text-white duration-200 font-medium py-1 px-4 border-2 border-black">
                     Event Schedule
-                </h1>
+                </button>
             </div>
         </div>
     );

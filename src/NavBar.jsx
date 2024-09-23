@@ -46,7 +46,7 @@ const Navbar = () => {
 
           {/* Hamburger Menu Icon */}
           <div className="md:hidden">
-            <button className="focus:outline-none" onClick={toggleMenu}>
+            <button className="focus:outline-none " onClick={toggleMenu}>
               <div className="relative w-8 h-8 flex gap-[9px] flex-col justify-center items-center">
                 <span
                   className={`block w-8 h-[2px] bg-gray-800 transform transition-transform duration-300 ${
@@ -76,7 +76,7 @@ const Navbar = () => {
 
         {/* Dropdown Menu for small screens */}
         <div
-          className={`absolute top-[95px] left-0 w-full bg-white p-6 z-10 flex flex-col space-y-4 items-center transform transition-transform duration-300 md:hidden ${
+          className={`absolute top-[60px] left-0 w-full bg-white p-6 z-10 flex flex-col space-y-4 items-center transform transition-transform duration-300 md:hidden ${
             isOpen ? 'translate-x-0' : '-translate-x-full'
           }`}
         >
