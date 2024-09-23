@@ -24,9 +24,9 @@ function CseTabs() {
                     "Mrs.N.V.L.Manaswini"
                 ],
                 studentcoordinators: [
-                    "Satish.Y(21HP1A05B8)(IV-II)",
-                    "Prashanth.D(22HP1A05B3) (III-II)",
-                    "M.Pratap(23HP1A05I6) (II-III)",
+                    "Satish.Y(21HP1A05B8)(IV-II) (9676298793)",
+                    "Prashanth.D(22HP1A05B3) (III-II) (9912342267)",
+                    "M.Pratap(23HP1A05I6) (II-III) (8639730871)",
                 ]
             },
             {
@@ -43,8 +43,8 @@ function CseTabs() {
                     "Mrs.I.Kamalamma (9704347061)",
                 ],
                 studentcoordinators: [
-                    "P.Pavan Kumar(21HP1A05B4)",
-                    "CH.Nandini(21HP1A0515)",
+                    "P.Pavan Kumar(21HP1A05B4) (9652158578)",
+                    "CH.Nandini(21HP1A0515) (8019546445)",
                     "R.Tejaswini naga likitha(21HP1A0514)",
                     "Inith Reddy(22HP1A05A3)",
                 ]
@@ -69,9 +69,9 @@ function CseTabs() {
                     
                 ],
                 studentcoordinators: [
-                    "Y.V.S.Pranay (22HP1A4461) (III CSD)",
-                    "R. Rajesh (22HP1A4452) (III CSD)",
-                    "Mythreya (22HP1A4448) (III CSD)",
+                    "Y.V.S.Pranay (22HP1A4461) (III CSD) (9059555806)",
+                    "R. Rajesh (22HP1A4452) (III CSD) (7989563453)",
+                    "Mythreya (22HP1A4448) (III CSD) (8885672255)",
                    
                 ]
             },
@@ -95,10 +95,10 @@ function CseTabs() {
                    
                 ],
                 studentcoordinators: [
-                    "D. Viraz (22HP1A4229) (III CSM)",
-                    "N. Nikith (22HP1A4261) (III CSM)",
-                    "Md. Yazer (22HP1A4263) (III CSM)",
-                    "Md. Raiyan (22HP1A4234) (III CSM)",
+                    "D. Viraz (22HP1A4229) (III CSM) (8885982299)",
+                    "N. Nikith (22HP1A4261) (III CSM) (7989535986)",
+                    "Md. Yazer (22HP1A4263) (III CSM) (9059728338)",
+                    "Md. Raiyan (22HP1A4234) (III CSM) (6304154863)",
                     
                 ]
             },
@@ -128,84 +128,92 @@ function CseTabs() {
         ],
         MECH: [
             {
-                event: "CAD Design",
+                event: "Paper Presentation",
                 topics: [
-                    "Qualifying for Round-1 Top-10 Teams Multiple Choice questions.",
-                    "Qualifying for Round-2 Top-5 Teams Multiple Choice questions.",
-                    "Qualifying for Round-3 Buzzer Round Top-3 Teams",
-                    "Team size: Maximum of 4 members are allowed.",
-                    "Presentation: 8 minutes + 2 minutes for queries."
+                    "1.Soft copy of paper with complete details of student (Name, Reg.No, Branch, College Name, Location, Mail-id, Phone number) and PPT should be sent to (mech.epi24@aliet.ac.in)",
+                    "2.Maximum of two authors per paper.",
+                    "3.Presentation time should be (8Min) and Queries (2Min) in total 10Min.",
+                    "4.Full Length paper should be submitted in word file not more than 10 pages. (Abstract should be specified clearly).",
                 ],
                 prize: "3N1",
                 facultycoordinators: [
-                    "Mrs B Susmitha",
-                    "Dr G G Srinivasu"
+                    "Dr G G Srinivasu (9849490282)",
+                    "Mrs B Susmitha (9885697122)"
                 ],
                 studentcoordinators: [
-                    "Mr Greeshmant",
+                    "Mr Greeshmant (6304693684)",
                     
                 ]
             },
             {
                 event: "Spot Event (Catia, Autocad & Assembly & Disassembly)",
                 topics: [
-                    "One participant per team for drafting events.",
-                    "For Assembly & Disassembly of Engine, max 2 participants per team."
-                ],
+                    "1. Maximum 1 participant per team.",
+                    "2.Points are noted for drafting, detailing, labelling and colouring",
+                    "3.The final result will be judged on the basis of completeness and optimum time.",
+                    "4. For Assembly & Disassembly of Engine Maximum 2 participant per team"
+                ], 
                 prize: "CAD LAB or 4E1",
                 facultycoordinators: [
-                    "Mr M Srinivas Reddy",
-                    "Mr K Teja Swarup"
+                    "Mr M Srinivas Reddy (8801455454)",
+                    "Mr K Teja Swarup (9121851618)"
                 ],
                 studentcoordinators: [
-                    "Mr. Md Basha",
+                    "Mr. Md Basha (9347459295)",
                     
                 ]
             },
             {
                 event: "Project Expo",
                 topics: [
-                    "Team size: Max 4 members.",
-                    "Prototype presentation.",
-                    "Projects must be safe for public display."
+                    "1. Team size: Maximum of 4 members are allowed.",
+                    "2. Presentation: Should be a working Prototy only.",
+                    "3. Project display: Free-standing and made of durable materials.",
+                    "4. Project safety: Be Careful / Prohibit experiments that could injure other people during demonstration "
                 ],
                 prize: "MOS LAB",
                 facultycoordinators: [
-                    "Mr. Ch. Ranga Rao",
-                    "Mr. T. Subba Reddy"
+                    "Mr. Ch. Ranga Rao (9030791806)",
+                    "Mr. T. Subba Reddy (8919000751)"
                 ],
                 studentcoordinators: [
-                    "Mr. Siroj"
+                    "Mr. Siroj (8143365255)"
                 ]
             },
             {
                 event: "QUIZ",
                 topics: [
-                    "Team size: Max 4 members."
+                    "1. Team size: Maximum of 4 members are allowed."
                 ],
                 prize: "4E 8",
                 facultycoordinators: [
-                    "Mr K. Udhay kiran",
-                    "Mr.M. Sudhakar "
+                    "Mr K. Udhay kiran (9493361299)",
+                    "Mr.M. Sudhakar (7306569993)"
                 ],
                 studentcoordinators: [
-                    "Mr. Ajay"
+                    "Mr. Ajay (6300997574)"
                 ]
             },
             {
                 event: "Poster Presentation",
                 topics: [
-                    "Team size: Max 2 members per team.",
-                    "Official language is English.",
-                    "Poster size: max 36”x48” (Printed or A2-Hand Made)."
+                    "1. Team size: Maximum of 2 members are allowed.",
+                    "2. Max. Posters : Only one poster will be allowed to present per team.",
+                    "3. Letters & Diagrams : All lettering and diagrams should be large enough to be read from a minimum of 2 feet.",
+                    "4. Language : The official language for the poster will be English.",
+                    "5. Poster Size: maximum 36”x48” (Printed or A2-Hand Made).",
+                     "7. Evaluation of marks : Evaluation of marks  will be based on theme, creativity, efforts taken, scientific content and presentation.",
+                     "8. Judgement : Decision of the judges/committee will be final."
+
+
                 ],
                 prize: "TOM LAB",
                 facultycoordinators: [
-                    "Mr. Ch. Ranga Rao",
-                    "Mr. T. Subba Reddy"
+                    "Mr. Ch. Ranga Rao (9030791806)",
+                    "Mr. T. Subba Reddy (8919000751)"
                 ],
                 studentcoordinators: [
-                    "Mr. Siroj"
+                    "Mr. Siroj (81433652559)"
                 ]
             }
         ],
