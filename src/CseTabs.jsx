@@ -130,10 +130,10 @@ function CseTabs() {
             {
                 event: "Paper Presentation",
                 topics: [
-                    "1.Soft copy of paper with complete details of student (Name, Reg.No, Branch, College Name, Location, Mail-id, Phone number) and PPT should be sent to (mech.epi24@aliet.ac.in)",
-                    "2.Maximum of two authors per paper.",
-                    "3.Presentation time should be (8Min) and Queries (2Min) in total 10Min.",
-                    "4.Full Length paper should be submitted in word file not more than 10 pages. (Abstract should be specified clearly).",
+                    "Soft copy of paper with complete details of student (Name, Reg.No, Branch, College Name, Location, Mail-id, Phone number) and PPT should be sent to (mech.epi24@aliet.ac.in)",
+                    "Maximum of two authors per paper.",
+                    "Presentation time should be (8Min) and Queries (2Min) in total 10Min.",
+                    "Full Length paper should be submitted in word file not more than 10 pages. (Abstract should be specified clearly).",
                 ],
                 prize: "3N1",
                 facultycoordinators: [
@@ -148,10 +148,10 @@ function CseTabs() {
             {
                 event: "Spot Event (Catia, Autocad & Assembly & Disassembly)",
                 topics: [
-                    "1. Maximum 1 participant per team.",
-                    "2.Points are noted for drafting, detailing, labelling and colouring",
-                    "3.The final result will be judged on the basis of completeness and optimum time.",
-                    "4. For Assembly & Disassembly of Engine Maximum 2 participant per team"
+                    "Maximum 1 participant per team.",
+                    "Points are noted for drafting, detailing, labelling and colouring",
+                    "The final result will be judged on the basis of completeness and optimum time.",
+                    "For Assembly & Disassembly of Engine Maximum 2 participant per team"
                 ], 
                 prize: "CAD LAB or 4E1",
                 facultycoordinators: [
@@ -166,10 +166,10 @@ function CseTabs() {
             {
                 event: "Project Expo",
                 topics: [
-                    "1. Team size: Maximum of 4 members are allowed.",
-                    "2. Presentation: Should be a working Prototy only.",
-                    "3. Project display: Free-standing and made of durable materials.",
-                    "4. Project safety: Be Careful / Prohibit experiments that could injure other people during demonstration "
+                    "Team size: Maximum of 4 members are allowed.",
+                    "Presentation: Should be a working Prototy only.",
+                    "Project display: Free-standing and made of durable materials.",
+                    "Project safety: Be Careful / Prohibit experiments that could injure other people during demonstration "
                 ],
                 prize: "MOS LAB",
                 facultycoordinators: [
@@ -183,7 +183,7 @@ function CseTabs() {
             {
                 event: "QUIZ",
                 topics: [
-                    "1. Team size: Maximum of 4 members are allowed."
+                    "Team size: Maximum of 4 members are allowed."
                 ],
                 prize: "4E 8",
                 facultycoordinators: [
@@ -197,13 +197,13 @@ function CseTabs() {
             {
                 event: "Poster Presentation",
                 topics: [
-                    "1. Team size: Maximum of 2 members are allowed.",
-                    "2. Max. Posters : Only one poster will be allowed to present per team.",
-                    "3. Letters & Diagrams : All lettering and diagrams should be large enough to be read from a minimum of 2 feet.",
-                    "4. Language : The official language for the poster will be English.",
-                    "5. Poster Size: maximum 36”x48” (Printed or A2-Hand Made).",
-                     "7. Evaluation of marks : Evaluation of marks  will be based on theme, creativity, efforts taken, scientific content and presentation.",
-                     "8. Judgement : Decision of the judges/committee will be final."
+                    "Team size: Maximum of 2 members are allowed.",
+                    "Max. Posters : Only one poster will be allowed to present per team.",
+                    "Letters & Diagrams : All lettering and diagrams should be large enough to be read from a minimum of 2 feet.",
+                    "Language : The official language for the poster will be English.",
+                    "Poster Size: maximum 36”x48” (Printed or A2-Hand Made).",
+                     "Evaluation of marks : Evaluation of marks  will be based on theme, creativity, efforts taken, scientific content and presentation.",
+                     "Judgement : Decision of the judges/committee will be final."
 
 
                 ],
