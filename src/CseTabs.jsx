@@ -17,9 +17,9 @@ function CseTabs() {
                 ],
                 prize: "-",
                 facultycoordinators: [
-                    "Dr.B.AshaLatha ",
-                    "Mrs.P.Nancy Anurag",
-                    "Mrs K.Neeharika",
+                    "Dr.B.AshaLatha (9059673773)",
+                    "Mrs.P.Nancy Anurag (9110534403)",
+                    "Mrs K.Neeharika (9494344774)",
                     "Mr.N.Vijay kumar",
                     "Mrs.N.V.L.Manaswini"
                 ],
@@ -32,15 +32,15 @@ function CseTabs() {
             {
                 event: "Spot Event(TUG OF WORDS)",
                 topics: [
-                    "1. Team Size Maximim 3 and minimum 1",
-                    "2. Presentation time :2 minutes",
-                    "3. Rule: Keywords should not be repeated"
+                    " Team Size Maximim 3 and minimum 1",
+                    " Presentation time :2 minutes",
+                    " Rule: Keywords should not be repeated"
                 ],
                 prize: "-",
                 facultycoordinators: [
-                    "Mrs.Y Karuna Manjusha",
-                    "Mrs.B.Alekhya",
-                    "Mrs.I.Kamalamma",
+                    "Mrs.Y Karuna Manjusha (9866113094)",
+                    "Mrs.B.Alekhya (9502823166)",
+                    "Mrs.I.Kamalamma (9704347061)",
                 ],
                 studentcoordinators: [
                     "P.Pavan Kumar(21HP1A05B4)",
@@ -62,12 +62,17 @@ function CseTabs() {
                 ],
                 prize: "-",
                 facultycoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "Mrs. V. Munni (8099205522)",
+                    "Mrs. Sk.Rubeena (9550006982)",
+                    "Mrs P. Nikhitha (8019834672)",
+                    "Mr. M. Pavan (9980228863)",
+                    
                 ],
                 studentcoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "Y.V.S.Pranay (22HP1A4461) (III CSD)",
+                    "R. Rajesh (22HP1A4452) (III CSD)",
+                    "Mythreya (22HP1A4448) (III CSD)",
+                   
                 ]
             },
             {
@@ -83,12 +88,18 @@ function CseTabs() {
                 ],
                 prize: "-",
                 facultycoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "Mr. Y.C. Ashok kumar (9502476366)",
+                    "Ms. K. Reena (7842334403)",
+                    "Mrs. M. Rojitha Priyadarshini (9494756351)",
+                    "Ms. M. Mounika Aaradhana (9490218799)",
+                   
                 ],
                 studentcoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "D. Viraz (22HP1A4229) (III CSM)",
+                    "N. Nikith (22HP1A4261) (III CSM)",
+                    "Md. Yazer (22HP1A4263) (III CSM)",
+                    "Md. Raiyan (22HP1A4234) (III CSM)",
+                    
                 ]
             },
             {

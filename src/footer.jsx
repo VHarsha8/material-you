@@ -1,16 +1,16 @@
 function Footer(){
       return(
-          <div className="bg-darkgreybackground h-auto w-full p-10 md:p-16   flex flex-col  ">
+          <div className="bg-darkgreybackground h-auto w-full p-10 md:px-16   flex flex-col  ">
   
               <div className="container  mx-auto flex flex-col ">
                   <img src="alietlogo.png"  alt="alto"className="w-16"/>
-              <h1 className="font-Vogue text-white text-3xl text-left md:text-4xl font-medium py-6 md:py-5">Epistemicon - 2K24</h1>
-              <div className="flex md:flex-row flex-col justify-between items-center ">
-                  <div className="flex   gap-4  md:gap-10">
+              <h1 className="font-Vogue  text-white text-3xl text-left md:text-4xl font-medium py-6 md:pt-5">Epistemicon - 2K24</h1>
+              <div className="flex md:flex-row   flex-col justify-between md:items-center ">
+                  <div className="flex  gap-4  md:gap-10">
                       <div className="flex  md:w-auto md:h-auto w-1/2 flex-col  ">
                       <h1 className="font-poppins  text-base md:text-md text-white"> About</h1>
                       <h1 className="font-poppins  text-gray-400 text-sm md:text-md"> Forum</h1>
-                      <h1 className="font-poppins  text-gray-400 text-sm md:text-md"> About ALIET</h1>
+                     <a href="https://www.aliet.ac.in/" rel="noreferrer" target="_blank"> <h1 className="font-poppins  text-gray-400 text-sm md:text-md"> About ALIET</h1></a>
   
                       </div>
                       <div className="flex md:w-auto md:h-auto w-1/2 flex-col ">
@@ -26,7 +26,7 @@ function Footer(){
                   </div>
               </div>
               <div className=" flex md:justify-end md:items-end justify-start items-start">
-              <h1 className="font-poppins text-white md:text-left text-right font-medium ">Made by CSE Department</h1>
+              <h1 className="font-poppins text-gray-500 md:text-left text-right  ">Developed by ALIET © </h1>
   
               </div>
               </div>
