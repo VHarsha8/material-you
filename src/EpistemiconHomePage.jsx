@@ -2,7 +2,7 @@ import React from 'react';
 import Timer from './Timer';
 import { motion } from 'framer-motion';
 
-function EpistemiconHomePage() {
+function EpistemiconHomePage({ onScrollToEventSchedule }) {
 
     const containerVariants = {
         hidden: { opacity: 0 },
@@ -33,10 +33,8 @@ function EpistemiconHomePage() {
         <div className="flex relative overflow-hidden flex-col items-center justify-center w-full px-8 md:gap-2 gap-4 mx-auto h-[650px] md:h-screen">
             <div className='flex justify-center mb-3 items-center'>
                 <Timer />
-             </div>
+            </div>
             <div className="absolute -z-50 h-full opacity-50 w-full bg-white bg-[linear-gradient(to_right,#E5E4E2_1px,transparent_1px),linear-gradient(to_bottom,#E5E4E2_1px,transparent_1px)] bg-[size:24px_24px]"></div>
-              
-            
 
             <div className="flex items-center justify-center">
                 <motion.h1
@@ -59,28 +57,34 @@ function EpistemiconHomePage() {
                 </h1>
             </div>
 
-            <a href='https://maps.app.goo.gl/J6xyoMU2tPoFzV7y7' target='_blank' rel="noreferrer"><div className='md:hidden   flex flex-col justify-center mt-4 items-center pl-11 pr-8 py-2 bg-darkgreybackground'>
-               <h1 className='text-md font-poppins  text-white'>28 SEPT 2024</h1>
-               
-               <div className='flex  justify-center -mt-1 items-center'>
-               <h1 className='text-sm font-poppins   text-wrap text-white '>ALIET, Vijayawada</h1>
-                <img src='arrowright.svg'alt ="Arrow"className='w-7  -rotate-45'/>
-               </div>
-          </div></a> 
-          {/* Large screen reference  */}
-           <a href='https://maps.app.goo.gl/J6xyoMU2tPoFzV7y7' target='_blank'rel="noreferrer"><div className='hidden  md:flex xs:flex  justify-center mt-4 items-center pl-11 pr-8 py-2 bg-darkgreybackground'>
-               <h1 className='text-md font-poppins  text-white'>28 SEPT 2024 </h1>
-               <h1 className='text-md font-poppins px-1 text-white'> |</h1>
+            <a href='https://maps.app.goo.gl/J6xyoMU2tPoFzV7y7' target='_blank' rel="noreferrer">
+                <div className='md:hidden flex flex-col justify-center mt-4 items-center pl-11 pr-8 py-2 bg-darkgreybackground'>
+                    <h1 className='text-md font-poppins text-white'>28 SEPT 2024</h1>
+                    <div className='flex justify-center -mt-1 items-center'>
+                        <h1 className='text-sm font-poppins text-wrap text-white'>ALIET, Vijayawada</h1>
+                        <img src='arrowright.svg' alt="Arrow" className='w-7 -rotate-45'/>
+                    </div>
+                </div>
+            </a>
 
-               
-               <div className='flex  justify-center items-center'>
-               <h1 className='text-sm font-poppins   text-wrap text-white'> ALIET, Vijayawada</h1>
-                <img src='arrowright.svg' alt="arrow"className='w-7  -rotate-45'/>
-               </div>
-          </div></a> 
+            {/* Large screen reference */}
+            <a href='https://maps.app.goo.gl/J6xyoMU2tPoFzV7y7' target='_blank' rel="noreferrer">
+                <div className='hidden md:flex xs:flex justify-center mt-4 items-center pl-11 pr-8 py-2 bg-darkgreybackground'>
+                    <h1 className='text-md font-poppins text-white'>28 SEPT 2024</h1>
+                    <h1 className='text-md font-poppins px-1 text-white'>|</h1>
+                    <div className='flex justify-center items-center'>
+                        <h1 className='text-sm font-poppins text-wrap text-white'>ALIET, Vijayawada</h1>
+                        <img src='arrowright.svg' alt="arrow" className='w-7 -rotate-45'/>
+                    </div>
+                </div>
+            </a>
 
             <div className="flex md:mt-4 gap-8 cursor-pointer">
-                <button className="text-xl font-poppins hover:bg-black hover:text-white duration-200 font-medium py-1 px-4 border-2 border-black">
+                {/* Button to scroll to Event Schedule */}
+                <button 
+                    className="text-xl font-poppins hover:bg-black hover:text-white duration-200 font-medium py-1 px-4 border-2 border-black"
+                    onClick={onScrollToEventSchedule} // Triggering the scroll action
+                >
                     Event Schedule
                 </button>
             </div>

@@ -451,6 +451,11 @@ function CseTabs() {
     return (
         <div className="flex flex-col my-6 mx-6">
             {/* Department Selection Buttons */}
+           <div class="text-center  mb-4">
+                 <p class="text-lg md:text-xl font-semibold text-gray-700">
+                     Click on a branch to view the event schedule
+                </p>
+            </div>
             <div className="flex flex-wrap gap-4 px-4 py-2 md:px-0 md:items-center md:justify-center md:gap-10">
                 {["CSE_AIML_IT", "MECH", "EEE", "CIVIL", "ECE"].map((dept) => (
                     <button
@@ -465,13 +470,13 @@ function CseTabs() {
                 ))}
             </div>
             {/* Department Header */}
-            <div className="flex flex-col w-full px-4 my-5 md:px-10">
+            {/* <div className="flex flex-col w-full px-4 my-5 md:px-10">
                 <div className='flex'>
                     <h1 className="px-3 py-2 text-xs md:text-sm text-gray-600 border border-gray-400 rounded-full backdrop-filter backdrop-blur-xl bg-green-400/40 font-poppins text-center">
                     {selectedDept === "CSE_AIML_IT" ? "CSE | AIML | IT" : selectedDept}
                 </h1>
                 </div>
-            </div>
+            </div> */}
 
             {/* Event Table */}
             <div className="overflow-x-auto mt-4">
