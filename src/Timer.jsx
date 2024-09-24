@@ -29,17 +29,23 @@ function Timer() {
   return (
     <div className="flex flex-col items-center border justify-center py-2 px-4 md:px-4 md:py-2  bg-gray-100 rounded-full shadow-lg">
       <div className="flex gap-2">
-        <div className="flex flex-col items-center">
-          <span className="md:text-xl text-md font-AmericanCaptainPatrius">{timeLeft.days} :</span>
+        <div className="flex gap-1 items-center">
+          <span className="md:text-xl text-red-600 text-md font-AmericanCaptainPatrius">{timeLeft.days} </span>
+          <span className="md:text-xl text-red-600  text-md font-AmericanCaptainPatrius"> : </span>
         </div>
-        <div className="flex flex-col items-center">
-          <span className="md:text-xl text-md font-AmericanCaptainPatrius">{timeLeft.hours} :</span>
+        <div className="flex gap-1 items-center">
+          
+          <span className="md:text-xl text-md text-red-600  text-md font-AmericanCaptainPatrius">{timeLeft.hours} </span>
+          <span className="md:text-xl text-red-600  text-md font-AmericanCaptainPatrius"> : </span>
+
         </div>
-        <div className="flex flex-col items-center">
-          <span className="md:text-xl text-md font-AmericanCaptainPatrius">{timeLeft.minutes} :</span>
+        <div className="flex gap-1 items-center">
+          <span className="md:text-xl  text-red-600 text-md font-AmericanCaptainPatrius">{timeLeft.minutes} </span>
+          <span className="md:text-xl text-red-600  text-md font-AmericanCaptainPatrius"> : </span>
+
         </div>
-        <div className="flex flex-col items-center">
-          <span className="md:text-xl text-md font-AmericanCaptainPatrius">{timeLeft.seconds}</span>
+        <div className="flex gap-1 items-center">
+          <span className="md:text-xl text-red-600   text-md font-AmericanCaptainPatrius">{timeLeft.seconds}</span>
         </div>
       </div>
     </div>

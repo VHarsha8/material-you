@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Timer from './Timer';
 import { motion } from 'framer-motion';
 
 function EpistemiconHomePage({ onScrollToEventSchedule }) {
+    // State to manage the visibility of the "Spot Registration" block
+    const [showRegistration, setShowRegistration] = useState(false);
+
+    // Toggle function to show/hide "Spot Registration"
+    const toggleRegistration = () => {
+        setShowRegistration(prevState => !prevState);
+    };
 
     const containerVariants = {
         hidden: { opacity: 0 },
@@ -89,11 +96,18 @@ function EpistemiconHomePage({ onScrollToEventSchedule }) {
                 </button>
                 <button 
                     className="text-xl w-auto md:w-[250px] font-poppins hover:bg-black hover:text-white duration-200 font-medium py-1 px-4 border-2 border-black"
-                     // Triggering the scroll action
+                    onClick={toggleRegistration} // Triggering the toggle function
                 >
                     Registration
                 </button>
             </div>
+
+            {/* Conditionally rendering the "Spot Registration" text with absolute positioning */}
+            {showRegistration && (
+                <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2 px-4 py-2 bg-white border rounded-xl border-gray-300 text-center">
+                    <h1 className="text-lg font-poppins">Spot Registration at College on 28 SEP 2024 <br />(Registration fee 100/- Ruppees only. )</h1>
+                </div>
+            )}
         </div>
     );
 }

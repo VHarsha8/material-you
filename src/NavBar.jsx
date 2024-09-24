@@ -71,10 +71,12 @@ const Navbar = ({ onScrollToEventSchedule }) => { // Receive the prop here
             >
               Event Schedule
             </button>
-            <button
-              className="flex items-center justify-center px-3 py-2 font-medium hover:text-white duration-200 delay-75 hover:bg-gray-700 rounded-lg font-poppins">
-              Registration
-            </button>
+            <a href='https://www.aliet.ac.in/' target='_blank' 
+          rel='noopener noreferrer'> <button
+            className="flex items-center justify-center px-3 py-2 font-medium text-white bg-darkgreybackground rounded-lg font-poppins">
+            Know More
+          </button></a>
+            
           </div>
         </div>
 
@@ -91,10 +93,11 @@ const Navbar = ({ onScrollToEventSchedule }) => { // Receive the prop here
             Event Schedule
           </button>
 
-          <button
-            className="flex items-center justify-center px-3 py-2 font-medium text-white bg-gray-500 rounded-lg font-poppins">
-            Registration
-          </button>
+        <a href='https://www.aliet.ac.in/' target='_blank' 
+          rel='noopener noreferrer'> <button
+            className="flex items-center justify-center px-3 py-2 font-medium text-white bg-darkgreybackground rounded-lg font-poppins">
+            Know More
+          </button></a> 
         </div>
       </nav>
     </div>
