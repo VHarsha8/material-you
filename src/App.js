@@ -40,6 +40,8 @@ function App() {
       {/* Main sections */}
       <EpistemiconHomePage onScrollToEventSchedule={scrollToEventSchedule} />
       <About onScrollToEventSchedule={scrollToEventSchedule} />
+      <Epistemicon />
+
       <CseTabs /> {/* This should be the last section with the ID */}
 
       {/* Footer */}

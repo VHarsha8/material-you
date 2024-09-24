@@ -86,7 +86,7 @@ function EpistemiconHomePage({ onScrollToEventSchedule }) {
                 </div>
             </a>
 
-            <div className="flex md:flex-row flex-col md:mt-5 gap-6 cursor-pointer">
+            <div className="flex relative md:flex-row flex-col md:mt-5 gap-6 cursor-pointer">
                 {/* Button to scroll to Event Schedule */}
                 <button 
                     className="text-xl w-auto md:w-[250px] font-poppins hover:bg-black hover:text-white duration-200 font-medium py-1 px-4 border-2 border-black"

@@ -11,6 +11,9 @@ function Epistemicon() {
         {
             url: 'QUIZPOSTER.jpg'
         },
+        {
+            url: 'Poster.jpg'
+        },
         
         
     ];
@@ -57,7 +60,7 @@ function Epistemicon() {
     }, [currentIndex]);
 
     return (
-        <div className='md:max-w-[1400px]  h-[400px] md:h-[680px] w-full m-auto  relative group pb-16 px-4 overflow-hidden'>
+        <div className='md:max-w-[1400px]  h-[400px] md:h-[600px] w-full m-auto  relative group pb-16 px-4 overflow-hidden'>
             {/* Slide container with snapping */}
             <div
                 ref={slideRef}
