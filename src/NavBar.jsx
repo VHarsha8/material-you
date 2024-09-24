@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
 
-const Navbar = () => {
+const Navbar = ({ onScrollToEventSchedule }) => { // Receive the prop here
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -46,7 +47,7 @@ const Navbar = () => {
 
           {/* Hamburger Menu Icon */}
           <div className="md:hidden">
-            <button className="focus:outline-none " onClick={toggleMenu}>
+            <button className="focus:outline-none" onClick={toggleMenu}>
               <div className="relative w-8 h-8 flex gap-[9px] flex-col justify-center items-center">
                 <span
                   className={`block w-8 h-[2px] bg-gray-800 transform transition-transform duration-300 ${
@@ -64,29 +65,36 @@ const Navbar = () => {
 
           {/* Menu for larger screens */}
           <div className="items-center justify-center hidden gap-4 md:flex">
-            <h1 className="text-lg font-medium font-poppins">Event Schedule</h1>
-            <a
-              href="#"
-              className="flex items-center justify-center px-3 py-2 text-sm font-medium text-white bg-black rounded-lg font-poppins"
+            <button
+              className="flex items-center justify-center px-3 py-2 font-medium hover:text-white duration-200 delay-75 hover:bg-gray-700 rounded-lg font-poppins"
+              onClick={onScrollToEventSchedule} // Use the passed function
             >
-              Learn More
-            </a>
+              Event Schedule
+            </button>
+            <button
+              className="flex items-center justify-center px-3 py-2 font-medium hover:text-white duration-200 delay-75 hover:bg-gray-700 rounded-lg font-poppins">
+              Registration
+            </button>
           </div>
         </div>
 
         {/* Dropdown Menu for small screens */}
         <div
-          className={`absolute top-[60px] left-0 w-full bg-white p-6 z-10 flex flex-col space-y-4 items-center transform transition-transform duration-300 md:hidden ${
+          className={`absolute top-[60px] left-0 w-full border bg-white p-6 z-10 flex flex-col space-y-4 items-center transform transition-transform duration-300 md:hidden ${
             isOpen ? 'translate-x-0' : '-translate-x-full'
           }`}
         >
-          <h1 className="text-xl font-medium font-poppins">Event Schedule</h1>
-          <a
-            href="#"
-            className="flex items-center justify-center px-3 py-2 font-medium text-white bg-black rounded-lg font-poppins"
+          <button
+            className="flex items-center justify-center px-3 py-2 font-medium text-white bg-gray-500 rounded-lg font-poppins"
+            onClick={onScrollToEventSchedule} // Use the passed function
           >
-            Learn More
-          </a>
+            Event Schedule
+          </button>
+
+          <button
+            className="flex items-center justify-center px-3 py-2 font-medium text-white bg-gray-500 rounded-lg font-poppins">
+            Registration
+          </button>
         </div>
       </nav>
     </div>

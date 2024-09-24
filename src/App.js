@@ -7,34 +7,14 @@ import About from './About';
 import NavbarWithMarquee from './NavBar';
 
 function App() {
-  const cseTabsRef = useRef(null);
+  // No need for a separate ref for the CseTabs, we'll scroll to its ID directly
 
-  // Function to perform the smooth scroll with a 1-second duration
+  // Scroll to "Event Schedule" section
   const scrollToEventSchedule = () => {
-    const targetPosition = cseTabsRef.current.offsetTop;
-    const startPosition = window.pageYOffset;
-    const distance = targetPosition - startPosition;
-    const duration = 1000; // 1 second in milliseconds
-    let startTime = null;
-
-    // Easing function for smooth scroll
-    const easeInOutQuad = (time, start, change, duration) => {
-      time /= duration / 2;
-      if (time < 1) return (change / 2) * time * time + start;
-      time--;
-      return (-change / 2) * (time * (time - 2) - 1) + start;
-    };
-
-    // Animation function
-    const animation = (currentTime) => {
-      if (startTime === null) startTime = currentTime;
-      const timeElapsed = currentTime - startTime;
-      const run = easeInOutQuad(timeElapsed, startPosition, distance, duration);
-      window.scrollTo(0, run);
-      if (timeElapsed < duration) requestAnimationFrame(animation);
-    };
-
-    requestAnimationFrame(animation);
+    const eventSection = document.getElementById('event-schedule');
+    if (eventSection) {
+      eventSection.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
@@ -55,17 +35,12 @@ function App() {
       </div>
 
       {/* Navbar with Marquee */}
-      <NavbarWithMarquee />
+      <NavbarWithMarquee onScrollToEventSchedule={scrollToEventSchedule} />
 
       {/* Main sections */}
       <EpistemiconHomePage onScrollToEventSchedule={scrollToEventSchedule} />
-      <About />
-      <Epistemicon />
-
-      {/* Event Schedule Section */}
-      <div ref={cseTabsRef}>
-        <CseTabs />
-      </div>
+      <About onScrollToEventSchedule={scrollToEventSchedule} />
+      <CseTabs /> {/* This should be the last section with the ID */}
 
       {/* Footer */}
       <Footer />

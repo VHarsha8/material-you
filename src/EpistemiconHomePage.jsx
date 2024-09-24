@@ -79,13 +79,19 @@ function EpistemiconHomePage({ onScrollToEventSchedule }) {
                 </div>
             </a>
 
-            <div className="flex md:mt-4 gap-8 cursor-pointer">
+            <div className="flex md:flex-row flex-col md:mt-5 gap-6 cursor-pointer">
                 {/* Button to scroll to Event Schedule */}
                 <button 
-                    className="text-xl font-poppins hover:bg-black hover:text-white duration-200 font-medium py-1 px-4 border-2 border-black"
+                    className="text-xl w-auto md:w-[250px] font-poppins hover:bg-black hover:text-white duration-200 font-medium py-1 px-4 border-2 border-black"
                     onClick={onScrollToEventSchedule} // Triggering the scroll action
                 >
                     Event Schedule
+                </button>
+                <button 
+                    className="text-xl w-auto md:w-[250px] font-poppins hover:bg-black hover:text-white duration-200 font-medium py-1 px-4 border-2 border-black"
+                     // Triggering the scroll action
+                >
+                    Registration
                 </button>
             </div>
         </div>
