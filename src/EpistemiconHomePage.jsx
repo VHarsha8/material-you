@@ -104,7 +104,7 @@ function EpistemiconHomePage({ onScrollToEventSchedule }) {
 
             {/* Conditionally rendering the "Spot Registration" text with absolute positioning */}
             {showRegistration && (
-                <div className="absolute bottom-1 md:w-auto w-[290px] md:bottom-16 left-1/2 transform -translate-x-1/2 px-4 py-2 bg-white border rounded-xl border-gray-300 text-center">
+                <div className="absolute bottom-1 md:w-auto w-[290px] md:bottom-16 left-1/2 transform -translate-x-1/2 px-2 md:px-4 py-2 bg-white border rounded-xl border-gray-300 text-center">
                     <h1 className="md:text-lg text-sm font-poppins">Spot Registration at College on 28 SEP 2024 <br />(Registration fee 100/- Rupees only. )</h1>
                 </div>
             )}
