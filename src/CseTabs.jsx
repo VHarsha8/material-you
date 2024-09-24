@@ -219,199 +219,274 @@ function CseTabs() {
         ],
         EEE: [
             {
-                event: "Poster Presentation",
+                event: "Paper Presentation",
                 topics: [
-                    "Participants must present their designs with explanations.",
-                    "Max two authors per paper."
+                    "Soft copy of paper with complete details of student (Name, Reg.No, Branch, College Name, Location, Mail-id, Phone number) and PPT should be sent to (mech.epi24@aliet.ac.in)",
+                    "Maximum of two authors per paper.",
+                    "Presentation time should be (8Min) and Queries (2Min) in total 10Min.",
+                    "Full Length paper should be submitted in word file not more than 10 pages. (Abstract should be specified clearly).",
                 ],
-                prize: "-",
+                prize: "3N1",
                 facultycoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "Dr G G Srinivasu (9849490282)",
+                    "Mrs B Susmitha (9885697122)"
                 ],
                 studentcoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "Mr Greeshmant (6304693684)",
+                    
                 ]
             },
             {
-                event: "Robo Race",
+                event: "Spot Event (Catia, Autocad & Assembly & Disassembly)",
                 topics: [
-                    "Control robots to compete in a race.",
-                    "Track provided on the event day."
-                ],
-                prize: "-",
+                    "Maximum 1 participant per team.",
+                    "Points are noted for drafting, detailing, labelling and colouring",
+                    "The final result will be judged on the basis of completeness and optimum time.",
+                    "For Assembly & Disassembly of Engine Maximum 2 participant per team"
+                ], 
+                prize: "CAD LAB or 4E1",
                 facultycoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "Mr M Srinivas Reddy (8801455454)",
+                    "Mr K Teja Swarup (9121851618)"
                 ],
                 studentcoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "Mr. Md Basha (9347459295)",
+                    
                 ]
             },
             {
                 event: "Project Expo",
                 topics: [
-                    "Display electrical projects.",
-                    "Judging based on innovation and design."
+                    "Team size: Maximum of 4 members are allowed.",
+                    "Presentation: Should be a working Prototy only.",
+                    "Project display: Free-standing and made of durable materials.",
+                    "Project safety: Be Careful / Prohibit experiments that could injure other people during demonstration "
                 ],
-                prize: "-",
+                prize: "MOS LAB",
                 facultycoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "Mr. Ch. Ranga Rao (9030791806)",
+                    "Mr. T. Subba Reddy (8919000751)"
                 ],
                 studentcoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "Mr. Siroj (8143365255)"
                 ]
             },
             {
-                event: "Quiz",
+                event: "QUIZ",
                 topics: [
-                    "Technical quiz on electrical circuits and systems.",
-                    "Max 2 participants per team."
+                    "Team size: Maximum of 4 members are allowed."
                 ],
-                prize: "-",
+                prize: "4E 8",
                 facultycoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "Mr K. Udhay kiran (9493361299)",
+                    "Mr.M. Sudhakar (7306569993)"
                 ],
                 studentcoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "Mr. Ajay (6300997574)"
+                ]
+            },
+            {
+                event: "Poster Presentation",
+                topics: [
+                    "Team size: Maximum of 2 members are allowed.",
+                    "Max. Posters : Only one poster will be allowed to present per team.",
+                    "Letters & Diagrams : All lettering and diagrams should be large enough to be read from a minimum of 2 feet.",
+                    "Language : The official language for the poster will be English.",
+                    "Poster Size: maximum 36”x48” (Printed or A2-Hand Made).",
+                     "Evaluation of marks : Evaluation of marks  will be based on theme, creativity, efforts taken, scientific content and presentation.",
+                     "Judgement : Decision of the judges/committee will be final."
+
+
+                ],
+                prize: "TOM LAB",
+                facultycoordinators: [
+                    "Mr. Ch. Ranga Rao (9030791806)",
+                    "Mr. T. Subba Reddy (8919000751)"
+                ],
+                studentcoordinators: [
+                    "Mr. Siroj (81433652559)"
                 ]
             }
         ],
         ECE: [
             {
-                event: "Poster Presentation",
+                event: "Paper Presentation",
                 topics: [
-                    "Participants must present their designs with explanations.",
-                    "Max two authors per paper."
+                    "Soft copy of paper with complete details of student (Name, Reg.No, Branch, College Name, Location, Mail-id, Phone number) and PPT should be sent to (mech.epi24@aliet.ac.in)",
+                    "Maximum of two authors per paper.",
+                    "Presentation time should be (8Min) and Queries (2Min) in total 10Min.",
+                    "Full Length paper should be submitted in word file not more than 10 pages. (Abstract should be specified clearly).",
                 ],
-                prize: "-",
+                prize: "3N1",
                 facultycoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "Dr G G Srinivasu (9849490282)",
+                    "Mrs B Susmitha (9885697122)"
                 ],
                 studentcoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "Mr Greeshmant (6304693684)",
+                    
                 ]
             },
             {
-                event: "Robo Race",
+                event: "Spot Event (Catia, Autocad & Assembly & Disassembly)",
                 topics: [
-                    "Control robots to compete in a race.",
-                    "Track provided on the event day."
-                ],
-                prize: "-",
+                    "Maximum 1 participant per team.",
+                    "Points are noted for drafting, detailing, labelling and colouring",
+                    "The final result will be judged on the basis of completeness and optimum time.",
+                    "For Assembly & Disassembly of Engine Maximum 2 participant per team"
+                ], 
+                prize: "CAD LAB or 4E1",
                 facultycoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "Mr M Srinivas Reddy (8801455454)",
+                    "Mr K Teja Swarup (9121851618)"
                 ],
                 studentcoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "Mr. Md Basha (9347459295)",
+                    
                 ]
             },
             {
                 event: "Project Expo",
                 topics: [
-                    "Display electrical projects.",
-                    "Judging based on innovation and design."
+                    "Team size: Maximum of 4 members are allowed.",
+                    "Presentation: Should be a working Prototy only.",
+                    "Project display: Free-standing and made of durable materials.",
+                    "Project safety: Be Careful / Prohibit experiments that could injure other people during demonstration "
                 ],
-                prize: "-",
+                prize: "MOS LAB",
                 facultycoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "Mr. Ch. Ranga Rao (9030791806)",
+                    "Mr. T. Subba Reddy (8919000751)"
                 ],
                 studentcoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "Mr. Siroj (8143365255)"
                 ]
             },
             {
-                event: "Quiz",
+                event: "QUIZ",
                 topics: [
-                    "Technical quiz on electrical circuits and systems.",
-                    "Max 2 participants per team."
+                    "Team size: Maximum of 4 members are allowed."
                 ],
-                prize: "-",
+                prize: "4E 8",
                 facultycoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "Mr K. Udhay kiran (9493361299)",
+                    "Mr.M. Sudhakar (7306569993)"
                 ],
                 studentcoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
-                ]
-            }
-        ],
-        CIVIL: [
-            {
-                event: "Bridge Design",
-                topics: [
-                    "Civil Engineering",
-                    "Structural Analysis"
-                ],
-                prize: "-",
-                facultycoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
-                ],
-                studentcoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
-                ]
-            },
-            {
-                event: "Surveying Challenge",
-                topics: [
-                    "Hands-on experience with land surveying tools.",
-                    "Survey a designated area."
-                ],
-                prize: "-",
-                facultycoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
-                ],
-                studentcoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
-                ]
-            },
-            {
-                event: "Concrete Testing",
-                topics: [
-                    "Conduct strength tests on concrete samples.",
-                    "Safety equipment required."
-                ],
-                prize: "-",
-                facultycoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
-                ],
-                studentcoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "Mr. Ajay (6300997574)"
                 ]
             },
             {
                 event: "Poster Presentation",
                 topics: [
-                    "Innovative construction techniques.",
-                    "Sustainable materials in civil engineering."
+                    "Team size: Maximum of 2 members are allowed.",
+                    "Max. Posters : Only one poster will be allowed to present per team.",
+                    "Letters & Diagrams : All lettering and diagrams should be large enough to be read from a minimum of 2 feet.",
+                    "Language : The official language for the poster will be English.",
+                    "Poster Size: maximum 36”x48” (Printed or A2-Hand Made).",
+                     "Evaluation of marks : Evaluation of marks  will be based on theme, creativity, efforts taken, scientific content and presentation.",
+                     "Judgement : Decision of the judges/committee will be final."
+
+
                 ],
-                prize: "-",
+                prize: "TOM LAB",
                 facultycoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "Mr. Ch. Ranga Rao (9030791806)",
+                    "Mr. T. Subba Reddy (8919000751)"
                 ],
                 studentcoordinators: [
-                    "G. Shiva",
-                    "H. Naveen"
+                    "Mr. Siroj (81433652559)"
+                ]
+            }
+        ],
+        CIVIL: [
+            {
+                event: "Paper Presentation",
+                topics: [
+                    "Soft copy of paper with complete details of student (Name, Reg.No, Branch, College Name, Location, Mail-id, Phone number) and PPT should be sent to (mech.epi24@aliet.ac.in)",
+                    "Maximum of two authors per paper.",
+                    "Presentation time should be (8Min) and Queries (2Min) in total 10Min.",
+                    "Full Length paper should be submitted in word file not more than 10 pages. (Abstract should be specified clearly).",
+                ],
+                prize: "3N1",
+                facultycoordinators: [
+                    "Dr G G Srinivasu (9849490282)",
+                    "Mrs B Susmitha (9885697122)"
+                ],
+                studentcoordinators: [
+                    "Mr Greeshmant (6304693684)",
+                    
+                ]
+            },
+            {
+                event: "Spot Event (Catia, Autocad & Assembly & Disassembly)",
+                topics: [
+                    "Maximum 1 participant per team.",
+                    "Points are noted for drafting, detailing, labelling and colouring",
+                    "The final result will be judged on the basis of completeness and optimum time.",
+                    "For Assembly & Disassembly of Engine Maximum 2 participant per team"
+                ], 
+                prize: "CAD LAB or 4E1",
+                facultycoordinators: [
+                    "Mr M Srinivas Reddy (8801455454)",
+                    "Mr K Teja Swarup (9121851618)"
+                ],
+                studentcoordinators: [
+                    "Mr. Md Basha (9347459295)",
+                    
+                ]
+            },
+            {
+                event: "Project Expo",
+                topics: [
+                    "Team size: Maximum of 4 members are allowed.",
+                    "Presentation: Should be a working Prototy only.",
+                    "Project display: Free-standing and made of durable materials.",
+                    "Project safety: Be Careful / Prohibit experiments that could injure other people during demonstration "
+                ],
+                prize: "MOS LAB",
+                facultycoordinators: [
+                    "Mr. Ch. Ranga Rao (9030791806)",
+                    "Mr. T. Subba Reddy (8919000751)"
+                ],
+                studentcoordinators: [
+                    "Mr. Siroj (8143365255)"
+                ]
+            },
+            {
+                event: "QUIZ",
+                topics: [
+                    "Team size: Maximum of 4 members are allowed."
+                ],
+                prize: "4E 8",
+                facultycoordinators: [
+                    "Mr K. Udhay kiran (9493361299)",
+                    "Mr.M. Sudhakar (7306569993)"
+                ],
+                studentcoordinators: [
+                    "Mr. Ajay (6300997574)"
+                ]
+            },
+            {
+                event: "Poster Presentation",
+                topics: [
+                    "Team size: Maximum of 2 members are allowed.",
+                    "Max. Posters : Only one poster will be allowed to present per team.",
+                    "Letters & Diagrams : All lettering and diagrams should be large enough to be read from a minimum of 2 feet.",
+                    "Language : The official language for the poster will be English.",
+                    "Poster Size: maximum 36”x48” (Printed or A2-Hand Made).",
+                     "Evaluation of marks : Evaluation of marks  will be based on theme, creativity, efforts taken, scientific content and presentation.",
+                     "Judgement : Decision of the judges/committee will be final."
+
+
+                ],
+                prize: "TOM LAB",
+                facultycoordinators: [
+                    "Mr. Ch. Ranga Rao (9030791806)",
+                    "Mr. T. Subba Reddy (8919000751)"
+                ],
+                studentcoordinators: [
+                    "Mr. Siroj (81433652559)"
                 ]
             }
         ],
