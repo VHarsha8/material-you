@@ -451,8 +451,8 @@ function CseTabs() {
     return (
         <div className="flex flex-col my-6 mx-6">
             {/* Department Selection Buttons */}
-           <div class="text-center  mb-4">
-                 <p class="text-lg md:text-xl font-semibold text-gray-700">
+           <div class="md:text-center mt-12 mb-4">
+                 <p class="text-md md:text-xl font-semibold text-gray-700">
                      Click on a branch to view the event schedule
                 </p>
             </div>
