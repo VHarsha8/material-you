@@ -167,7 +167,7 @@ function CseTabs() {
                 event: "Project Expo",
                 topics: [
                     "Team size: Maximum of 4 members are allowed.",
-                    "Presentation: Should be a working Prototy only.",
+                    "Presentation: Should be a working Prototype only.",
                     "Project display: Free-standing and made of durable materials.",
                     "Project safety: Be Careful / Prohibit experiments that could injure other people during demonstration "
                 ],
@@ -219,94 +219,94 @@ function CseTabs() {
         ],
         EEE: [
             {
-                event: "Paper Presentation",
+                event: "Technical Paper Presentation",
                 topics: [
                     "Soft copy of paper with complete details of student (Name, Reg.No, Branch, College Name, Location, Mail-id, Phone number) and PPT should be sent to (mech.epi24@aliet.ac.in)",
                     "Maximum of two authors per paper.",
                     "Presentation time should be (8Min) and Queries (2Min) in total 10Min.",
                     "Full Length paper should be submitted in word file not more than 10 pages. (Abstract should be specified clearly).",
                 ],
-                prize: "3N1",
+                prize: "SSH",
                 facultycoordinators: [
-                    "Dr G G Srinivasu (9849490282)",
-                    "Mrs B Susmitha (9885697122)"
+                    "Dr.M.Ajay Kumar (9381237756)",
                 ],
                 studentcoordinators: [
-                    "Mr Greeshmant (6304693684)",
+                    "-",
                     
                 ]
             },
             {
-                event: "Spot Event (Catia, Autocad & Assembly & Disassembly)",
+                event: "Technical Poster Presentation",
                 topics: [
-                    "Maximum 1 participant per team.",
-                    "Points are noted for drafting, detailing, labelling and colouring",
-                    "The final result will be judged on the basis of completeness and optimum time.",
-                    "For Assembly & Disassembly of Engine Maximum 2 participant per team"
+                    "Max. Posters : Only one poster will be allowed to present per team.",
+                    "Language : The official language for the poster will be English.",
+                    "Poster Size: maximum 36”x48” (Printed or A2-Hand Made).",
+                    "Evaluation of marks : Evaluation of marks will be based on theme, creativity, efforts taken, scientific content and presentation.",
+                    "Judgement : Decision of the judges/committee will be final.",
+                   
+
                 ], 
-                prize: "CAD LAB or 4E1",
+                prize: "Electrical Machines Lab",
                 facultycoordinators: [
-                    "Mr M Srinivas Reddy (8801455454)",
-                    "Mr K Teja Swarup (9121851618)"
+                    "Mr.L.Karunakar (8919168220)",
                 ],
                 studentcoordinators: [
-                    "Mr. Md Basha (9347459295)",
+                    "-",
                     
                 ]
             },
             {
                 event: "Project Expo",
                 topics: [
-                    "Team size: Maximum of 4 members are allowed.",
-                    "Presentation: Should be a working Prototy only.",
-                    "Project display: Free-standing and made of durable materials.",
-                    "Project safety: Be Careful / Prohibit experiments that could injure other people during demonstration "
-                ],
-                prize: "MOS LAB",
-                facultycoordinators: [
-                    "Mr. Ch. Ranga Rao (9030791806)",
-                    "Mr. T. Subba Reddy (8919000751)"
-                ],
-                studentcoordinators: [
-                    "Mr. Siroj (8143365255)"
-                ]
-            },
-            {
-                event: "QUIZ",
-                topics: [
-                    "Team size: Maximum of 4 members are allowed."
-                ],
-                prize: "4E 8",
-                facultycoordinators: [
-                    "Mr K. Udhay kiran (9493361299)",
-                    "Mr.M. Sudhakar (7306569993)"
-                ],
-                studentcoordinators: [
-                    "Mr. Ajay (6300997574)"
-                ]
-            },
-            {
-                event: "Poster Presentation",
-                topics: [
                     "Team size: Maximum of 2 members are allowed.",
-                    "Max. Posters : Only one poster will be allowed to present per team.",
-                    "Letters & Diagrams : All lettering and diagrams should be large enough to be read from a minimum of 2 feet.",
-                    "Language : The official language for the poster will be English.",
-                    "Poster Size: maximum 36”x48” (Printed or A2-Hand Made).",
-                     "Evaluation of marks : Evaluation of marks  will be based on theme, creativity, efforts taken, scientific content and presentation.",
-                     "Judgement : Decision of the judges/committee will be final."
-
-
+                    "Presentation: Should be a working Prototype only.",
+                    "Project display: Free-standing and made of durable materials.",
+                    "Project safety: Be Careful / Prohibit experiments that could injure other people during demonstration"
                 ],
-                prize: "TOM LAB",
+                prize: "Power Electronics Lab",
                 facultycoordinators: [
-                    "Mr. Ch. Ranga Rao (9030791806)",
-                    "Mr. T. Subba Reddy (8919000751)"
+                    "Dr.D.Ravi Kiran (9966606292)",
                 ],
                 studentcoordinators: [
-                    "Mr. Siroj (81433652559)"
+                    "-"
                 ]
-            }
+            },
+            // {
+            //     event: "QUIZ",
+            //     topics: [
+            //         "Team size: Maximum of 4 members are allowed."
+            //     ],
+            //     prize: "4E 8",
+            //     facultycoordinators: [
+            //         "Mr K. Udhay kiran (9493361299)",
+            //         "Mr.M. Sudhakar (7306569993)"
+            //     ],
+            //     studentcoordinators: [
+            //         "Mr. Ajay (6300997574)"
+            //     ]
+            // },
+            // {
+            //     event: "Poster Presentation",
+            //     topics: [
+            //         "Team size: Maximum of 2 members are allowed.",
+            //         "Max. Posters : Only one poster will be allowed to present per team.",
+            //         "Letters & Diagrams : All lettering and diagrams should be large enough to be read from a minimum of 2 feet.",
+            //         "Language : The official language for the poster will be English.",
+            //         "Poster Size: maximum 36”x48” (Printed or A2-Hand Made).",
+            //          "Evaluation of marks : Evaluation of marks  will be based on theme, creativity, efforts taken, scientific content and presentation.",
+            //          "Judgement : Decision of the judges/committee will be final."
+
+
+            //     ],
+            //     prize: "TOM LAB",
+            //     facultycoordinators: [
+            //         "Mr. Ch. Ranga Rao (9030791806)",
+            //         "Mr. T. Subba Reddy (8919000751)"
+            //     ],
+            //     studentcoordinators: [
+            //         "Mr. Siroj (81433652559)"
+            //     ]
+            // }
         ],
         ECE: [
             {
