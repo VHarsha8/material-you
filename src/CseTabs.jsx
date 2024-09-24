@@ -221,7 +221,7 @@ function CseTabs() {
             {
                 event: "Technical Paper Presentation",
                 topics: [
-                    "Soft copy of paper with complete details of student (Name, Reg.No, Branch, College Name, Location, Mail-id, Phone number) and PPT should be sent to (mech.epi24@aliet.ac.in)",
+                    "Soft copy of paper with complete details of student (Name, Reg.No, Branch, College Name, Location, Mail-id, Phone number) and PPT should be sent to (eee.epi24@aliet.ac.in)",
                     "Maximum of two authors per paper.",
                     "Presentation time should be (8Min) and Queries (2Min) in total 10Min.",
                     "Full Length paper should be submitted in word file not more than 10 pages. (Abstract should be specified clearly).",
