@@ -1,6 +1,6 @@
 function About(){
     return(
-        <div className="  py-10 xs:px-10 air:px-9 gap-6 md:px-16 px-6 flex flex-col">
+        <div className="  py-10  air:px-9 gap-6 md:px-16 px-6 flex flex-col">
             <div className="flex flex-col gap-2  ">
                 <img src="about.svg"  className="md:w-16 w-12" />
                 <h1 className="font-poppins font-semibold text-2xl md:text-4xl "> About Epistemicon</h1>
