@@ -401,94 +401,97 @@ function CseTabs() {
         ],
         CIVIL: [
             {
-                event: "Paper Presentation",
+                event: "PPT",
                 topics: [
-                    "Soft copy of paper with complete details of student (Name, Reg.No, Branch, College Name, Location, Mail-id, Phone number) and PPT should be sent to (mech.epi24@aliet.ac.in)",
-                    "Maximum of two authors per paper.",
-                    "Presentation time should be (8Min) and Queries (2Min) in total 10Min.",
-                    "Full Length paper should be submitted in word file not more than 10 pages. (Abstract should be specified clearly).",
+                    "Minimum 1 and maximum 3 participants ",
+                    "Participants should be on time",
+                    "presentation should be maximum 10- 15min followed by quries",
+                    "PPT should contain 15 - 20 slides.",
+                    "Title should be clear and concise, reflects the civil engineering topics ",
                 ],
-                prize: "3N1",
+                prize: "MBA SH",
                 facultycoordinators: [
-                    "Dr G G Srinivasu (9849490282)",
-                    "Mrs B Susmitha (9885697122)"
+                    "Ms G MAHITHA (7993705022)",
                 ],
                 studentcoordinators: [
-                    "Mr Greeshmant (6304693684)",
+                    "T GANESH CHANDRAKANTH REDDY (23HP5A0117) (8498027297)",
+                    "CH RISHENDRA VARMA  (23HP5A0111) (7075513499)",
                     
                 ]
             },
             {
-                event: "Spot Event (Catia, Autocad & Assembly & Disassembly)",
+                event: "POSTER",
                 topics: [
-                    "Maximum 1 participant per team.",
-                    "Points are noted for drafting, detailing, labelling and colouring",
-                    "The final result will be judged on the basis of completeness and optimum time.",
-                    "For Assembly & Disassembly of Engine Maximum 2 participant per team"
+                    "Minimum 1 and maximum 2 participants ",
+                    "Title should be clear and concise, reflects the civil engineering topics ",
+                    "Participants should be on time.",
+                    "Be prepared to explain your poster and answer questions ",
+                    "Poster Presentation should be maximum  5- 10 min  ",
                 ], 
-                prize: "CAD LAB or 4E1",
+                prize: "MBA SH",
                 facultycoordinators: [
-                    "Mr M Srinivas Reddy (8801455454)",
-                    "Mr K Teja Swarup (9121851618)"
+                    "Mrs V SWATHI PADMAJA (8500735005)",
                 ],
                 studentcoordinators: [
-                    "Mr. Md Basha (9347459295)",
+                    "G PRASHANTH (21HP1A0116)  (7288828929)",
+                    "M TARUN SAI (21HP1A0124)  (8309603619)",
                     
                 ]
             },
             {
-                event: "Project Expo",
+                event: "MODEL EXPO",
                 topics: [
-                    "Team size: Maximum of 4 members are allowed.",
-                    "Presentation: Should be a working Prototy only.",
-                    "Project display: Free-standing and made of durable materials.",
-                    "Project safety: Be Careful / Prohibit experiments that could injure other people during demonstration "
+                    "Minimum 1 and maximum 4 participants ",
+                    "Participants should be on time",
+                    "Be prepared to explain your model  ",
                 ],
-                prize: "MOS LAB",
+                prize: "GT-LAB",
                 facultycoordinators: [
-                    "Mr. Ch. Ranga Rao (9030791806)",
-                    "Mr. T. Subba Reddy (8919000751)"
+                    "Mr V.Surya teja ",
                 ],
                 studentcoordinators: [
-                    "Mr. Siroj (8143365255)"
+                    "-"
                 ]
             },
             {
-                event: "QUIZ",
+                event: "TECHNICAL QUIZ",
                 topics: [
-                    "Team size: Maximum of 4 members are allowed."
+                    "Minimum 2 and maximum 3 participants per team.",
+                    "Only participants are allowed and be on time",
+                    "Indecipline/unnecessary noise leads to disquality the team",
                 ],
-                prize: "4E 8",
+                prize: "209",
                 facultycoordinators: [
-                    "Mr K. Udhay kiran (9493361299)",
-                    "Mr.M. Sudhakar (7306569993)"
+                    "Mr. N. Abhilash (8790119289)",
                 ],
                 studentcoordinators: [
-                    "Mr. Ajay (6300997574)"
+                    "P. Chakrapani (22HP5A0105) (9912756577)",
+                    "M.Jagdeesh (22HP1A0103) (9618290811)",
+                    "V. Manikanta (24HP1A0115) (7729930321)",
                 ]
             },
-            {
-                event: "Poster Presentation",
-                topics: [
-                    "Team size: Maximum of 2 members are allowed.",
-                    "Max. Posters : Only one poster will be allowed to present per team.",
-                    "Letters & Diagrams : All lettering and diagrams should be large enough to be read from a minimum of 2 feet.",
-                    "Language : The official language for the poster will be English.",
-                    "Poster Size: maximum 36”x48” (Printed or A2-Hand Made).",
-                     "Evaluation of marks : Evaluation of marks  will be based on theme, creativity, efforts taken, scientific content and presentation.",
-                     "Judgement : Decision of the judges/committee will be final."
+            // {
+            //     event: "Poster Presentation",
+            //     topics: [
+            //         "Team size: Maximum of 2 members are allowed.",
+            //         "Max. Posters : Only one poster will be allowed to present per team.",
+            //         "Letters & Diagrams : All lettering and diagrams should be large enough to be read from a minimum of 2 feet.",
+            //         "Language : The official language for the poster will be English.",
+            //         "Poster Size: maximum 36”x48” (Printed or A2-Hand Made).",
+            //          "Evaluation of marks : Evaluation of marks  will be based on theme, creativity, efforts taken, scientific content and presentation.",
+            //          "Judgement : Decision of the judges/committee will be final."
 
 
-                ],
-                prize: "TOM LAB",
-                facultycoordinators: [
-                    "Mr. Ch. Ranga Rao (9030791806)",
-                    "Mr. T. Subba Reddy (8919000751)"
-                ],
-                studentcoordinators: [
-                    "Mr. Siroj (81433652559)"
-                ]
-            }
+            //     ],
+            //     prize: "TOM LAB",
+            //     facultycoordinators: [
+            //         "Mr. Ch. Ranga Rao (9030791806)",
+            //         "Mr. T. Subba Reddy (8919000751)"
+            //     ],
+            //     studentcoordinators: [
+            //         "Mr. Siroj (81433652559)"
+            //     ]
+            // }
         ],
     };
 
