@@ -312,36 +312,38 @@ function CseTabs() {
             {
                 event: "Paper Presentation",
                 topics: [
-                    "Soft copy of paper with complete details of student (Name, Reg.No, Branch, College Name, Location, Mail-id, Phone number) and PPT should be sent to (ece.epi24@aliet.ac.in)",
-                    "Maximum of two authors per paper.",
-                    "Presentation time should be (8Min) and Queries (2Min) in total 10Min.",
-                    "Full Length paper should be submitted in word file not more than 10 pages. (Abstract should be specified clearly).",
+                    "1.Soft copy of paper with complete details of student (Name, Reg.No, Branch, College Name, Location, Mail-id, Phone number) and PPT should be sent to (ece.epi24@aliet.ac.in)",
+                    "2.Maximum of two authors per paper.",
+                    "3.Presentation time should be (8Min) and Queries (2Min) in total 10Min.",
+                    "4.Full Length paper should be submitted in word file not more than 10 pages. (Abstract should be specified clearly).",
                 ],
-                prize: "3N1",
+                prize: "411 (SEMINAR HALL)",
                 facultycoordinators: [
-                    "Dr G G Srinivasu (9849490282)",
-                    "Mrs B Susmitha (9885697122)"
+                    "Mr. Md. Baig Mohammad ",
+                    "Mr. P. Bose Babu (9440729045)"
                 ],
                 studentcoordinators: [
-                    "Mr Greeshmant (6304693684)",
+                    "Ch Jagan ",
+                    "B Dharani (8688293764)",
                     
                 ]
             },
             {
-                event: "Spot Event (Catia, Autocad & Assembly & Disassembly)",
+                event: "Spot Event",
                 topics: [
-                    "Maximum 1 participant per team.",
-                    "Points are noted for drafting, detailing, labelling and colouring",
-                    "The final result will be judged on the basis of completeness and optimum time.",
-                    "For Assembly & Disassembly of Engine Maximum 2 participant per team"
+                    "1. Maximum 1 participant per team.",
+                    "2.Points are noted for drafting, detailing, labelling and colouring",
+                    "3.The final result will be judged on the basis of completeness and optimum time.",
+                    "4. For Assembly & Disassembly of Engine Maximum 2 participant per team"
                 ], 
-                prize: "CAD LAB or 4E1",
+                prize: "Room No:307",
                 facultycoordinators: [
-                    "Mr M Srinivas Reddy (8801455454)",
-                    "Mr K Teja Swarup (9121851618)"
+                    "Mr. G. Ravi (9848794818)",
+                    "Mr. Abdul Azeem "
                 ],
                 studentcoordinators: [
-                    "Mr. Md Basha (9347459295)",
+                    "Ch Hema Latha",
+                    "B Ram Babu (8688293764)",
                     
                 ]
             },
@@ -349,17 +351,18 @@ function CseTabs() {
                 event: "Project Expo",
                 topics: [
                     "Team size: Maximum of 4 members are allowed.",
-                    "Presentation: Should be a working Prototy only.",
+                    "Presentation: Should be a working Prototype only.",
                     "Project display: Free-standing and made of durable materials.",
                     "Project safety: Be Careful / Prohibit experiments that could injure other people during demonstration "
                 ],
-                prize: "MOS LAB",
+                prize: "MPMC LAB",
                 facultycoordinators: [
-                    "Mr. Ch. Ranga Rao (9030791806)",
-                    "Mr. T. Subba Reddy (8919000751)"
+                    "Mr. Y. Pavan Kumar (9652182190)",
+                    "Mr. M.Ravi "
                 ],
                 studentcoordinators: [
-                    "Mr. Siroj (8143365255)"
+                    "A. Charan Sai (8688293764)",
+                    "Sk. Ishaaq Ahmed  ",
                 ]
             },
             {
@@ -367,13 +370,13 @@ function CseTabs() {
                 topics: [
                     "Team size: Maximum of 4 members are allowed."
                 ],
-                prize: "4E 8",
+                prize: "Room No:407",
                 facultycoordinators: [
-                    "Mr K. Udhay kiran (9493361299)",
-                    "Mr.M. Sudhakar (7306569993)"
+                    "Mr.K.Appala Raju (8008423647)",
+                    "Mr. K. Srinivasa Rao "
                 ],
                 studentcoordinators: [
-                    "Mr. Ajay (6300997574)"
+                    "Mr Sami Khan (8688293764) (Over all Student Co Ordinator.)"
                 ]
             },
             {
@@ -389,13 +392,13 @@ function CseTabs() {
 
 
                 ],
-                prize: "TOM LAB",
+                prize: "Room No:308",
                 facultycoordinators: [
-                    "Mr. Ch. Ranga Rao (9030791806)",
-                    "Mr. T. Subba Reddy (8919000751)"
+                    "Mr. Pranob Kumar Charles ",
+                    "Mr.G.Vijay Kumar (970107754)"
                 ],
                 studentcoordinators: [
-                    "Mr. Siroj (81433652559)"
+                    "Mr Sami Khan (8688293764) (Over all Student Co Ordinator.)"
                 ]
             }
         ],
