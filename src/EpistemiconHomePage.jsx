@@ -37,7 +37,7 @@ function EpistemiconHomePage({ onScrollToEventSchedule }) {
     const text = "EPISTEMICON - 2K24";
 
     return (
-        <div className="flex relative overflow-hidden flex-col items-center justify-center w-full px-8 md:gap-2 gap-4 mx-auto h-[650px]  air:h-[800px] md:h-screen">
+        <div className="flex relative overflow-hidden flex-col items-center justify-center w-full px-8 md:gap-2 gap-4 mx-auto h-[650px]   md:h-screen">
             <div className='flex justify-center mb-3 items-center'>
                 <Timer />
             </div>
