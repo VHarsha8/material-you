@@ -15,9 +15,9 @@ function Footer(){
                       </div>
                       <div className="flex gap-1 md:w-auto md:h-auto w-1/2 flex-col ">
                       <h1 className="font-poppins  text-base md:text-md text-white"> Developers</h1>
-                      <a href="https://www.linkedin.com/in/yagneshpasam?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <h1 className="font-poppins  text-gray-400 text-sm md:text-md">Yagnesh Pasam</h1></a> 
+                      <a href="https://www.linkedin.com/in/yagneshpasam?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"> <h1 className="font-poppins  text-gray-400 text-sm md:text-md">Yagnesh Pasam</h1></a> 
 
-                    <a href="https://www.linkedin.com/in/harshavardhan8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <h1 className="font-poppins  text-gray-400 text-sm md:text-md"> Harshavardhan</h1></a> 
+                    <a href="https://www.linkedin.com/in/harshavardhan8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"> <h1 className="font-poppins  text-gray-400 text-sm md:text-md"> Harshavardhan</h1></a> 
   
                       </div>
                   </div>
