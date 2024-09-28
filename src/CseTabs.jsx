@@ -310,20 +310,22 @@ function CseTabs() {
                     "-"
                 ]
             },
-            // {
-            //     event: "QUIZ",
-            //     topics: [
-            //         "Team size: Maximum of 4 members are allowed."
-            //     ],
-            //     prize: "4E 8",
-            //     facultycoordinators: [
-            //         "Mr K. Udhay kiran (9493361299)",
-            //         "Mr.M. Sudhakar (7306569993)"
-            //     ],
-            //     studentcoordinators: [
-            //         "Mr. Ajay (6300997574)"
-            //     ]
-            // },
+            {
+                event: "QUIZ",
+                topics: [
+                    "Team size: Maximum of 4 members are allowed."
+                ],
+                prize: "4E 8",
+                facultycoordinators: [
+                    "Dr.G.Gantaiah Swamy (7075342409)",
+                ],
+                studentcoordinators: [
+                    "-"
+                ],
+                winners:[
+                    "-"
+                ]
+            },
             // {
             //     event: "Poster Presentation",
             //     topics: [
