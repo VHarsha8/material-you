@@ -40,8 +40,8 @@ function EpistemiconHomePage({ onScrollToEventSchedule }) {
         <div className="flex relative overflow-hidden flex-col items-center justify-center w-full px-8 md:gap-2 gap-4 mx-auto h-[650px]   md:h-screen">
             <div className="flex flex-col justify-center items-center w-full px-4 my-5 md:px-10">
                 <div className='flex'>
-                    <h1 className="px-3 py-1 text-xs md:text-sm text-gray-600 border border-gray-400 rounded-full backdrop-filter backdrop-blur-xl bg-green-400/40 font-poppins text-center">
-                    Welcomne to
+                    <h1 className="px-3 py-1 text-xs md:text-sm text-gray-600 border border-gray-300 rounded-full backdrop-filter backdrop-blur-xl bg-green-400/40 font-poppins text-center">
+                    Welcome to
                 </h1>
                 </div>
             </div>
