@@ -27,6 +27,9 @@ function CseTabs() {
                     "Satish.Y(21HP1A05B8)(IV-II) (9676298793)",
                     "Prashanth.D(22HP1A05B3) (III-II) (9912342267)",
                     "M.Pratap(23HP1A05I6) (II-III) (8639730871)",
+                ],
+                winners:[
+                    "-"
                 ]
             },
             {
@@ -47,6 +50,9 @@ function CseTabs() {
                     "CH.Nandini(21HP1A0515) (8019546445)",
                     "R.Tejaswini naga likitha(21HP1A0514)",
                     "Inith Reddy(22HP1A05A3)",
+                ],
+                winners:[
+                    "-"
                 ]
             },
             {
@@ -73,6 +79,9 @@ function CseTabs() {
                     "R. Rajesh (22HP1A4452) (III CSD) (7989563453)",
                     "Mythreya (22HP1A4448) (III CSD) (8885672255)",
                    
+                ],
+                winners:[
+                    "-"
                 ]
             },
             {
@@ -100,6 +109,9 @@ function CseTabs() {
                     "Md. Yazer (22HP1A4263) (III CSM) (9059728338)",
                     "Md. Raiyan (22HP1A4234) (III CSM) (6304154863)",
                     
+                ],
+                winners:[
+                    "-"
                 ]
             },
             {
@@ -123,6 +135,9 @@ function CseTabs() {
                     "Naga Lokesh (21HP1A1239)",
                     "J. Mohan Sai (21HP1A1244)",
                     
+                ],
+                winners:[
+                    "-"
                 ]
             }
         ],
@@ -143,6 +158,9 @@ function CseTabs() {
                 studentcoordinators: [
                     "Mr Greeshmant (6304693684)",
                     
+                ],
+                winners:[
+                    "-"
                 ]
             },
             {
@@ -161,6 +179,9 @@ function CseTabs() {
                 studentcoordinators: [
                     "Mr. Md Basha (9347459295)",
                     
+                ],
+                winners:[
+                    "-"
                 ]
             },
             {
@@ -178,6 +199,9 @@ function CseTabs() {
                 ],
                 studentcoordinators: [
                     "Mr. Siroj (8143365255)"
+                ],
+                winners:[
+                    "-"
                 ]
             },
             {
@@ -192,6 +216,9 @@ function CseTabs() {
                 ],
                 studentcoordinators: [
                     "Mr. Ajay (6300997574)"
+                ],
+                winners:[
+                    "-"
                 ]
             },
             {
@@ -214,6 +241,9 @@ function CseTabs() {
                 ],
                 studentcoordinators: [
                     "Mr. Siroj (81433652559)"
+                ],
+                winners:[
+                    "-"
                 ]
             }
         ],
@@ -233,6 +263,9 @@ function CseTabs() {
                 studentcoordinators: [
                     "-",
                     
+                ],
+                winners:[
+                    "-"
                 ]
             },
             {
@@ -253,6 +286,9 @@ function CseTabs() {
                 studentcoordinators: [
                     "-",
                     
+                ],
+                winners:[
+                    "-"
                 ]
             },
             {
@@ -268,6 +304,9 @@ function CseTabs() {
                     "Dr.D.Ravi Kiran (9966606292)",
                 ],
                 studentcoordinators: [
+                    "-"
+                ],
+                winners:[
                     "-"
                 ]
             },
@@ -326,6 +365,9 @@ function CseTabs() {
                     "Ch Jagan ",
                     "B Dharani (8688293764)",
                     
+                ],
+                winners:[
+                    "-"
                 ]
             },
             {
@@ -345,6 +387,9 @@ function CseTabs() {
                     "Ch Hema Latha",
                     "B Ram Babu (8688293764)",
                     
+                ],
+                winners:[
+                    "-"
                 ]
             },
             {
@@ -363,6 +408,9 @@ function CseTabs() {
                 studentcoordinators: [
                     "A. Charan Sai (8688293764)",
                     "Sk. Ishaaq Ahmed  ",
+                ],
+                winners:[
+                    "-"
                 ]
             },
             {
@@ -377,6 +425,9 @@ function CseTabs() {
                 ],
                 studentcoordinators: [
                     "Mr Sami Khan (8688293764) (Over all Student Co Ordinator.)"
+                ],
+                winners:[
+                    "-"
                 ]
             },
             {
@@ -399,6 +450,9 @@ function CseTabs() {
                 ],
                 studentcoordinators: [
                     "Mr Sami Khan (8688293764) (Over all Student Co Ordinator.)"
+                ],
+                winners:[
+                    "-"
                 ]
             }
         ],
@@ -420,6 +474,9 @@ function CseTabs() {
                     "T GANESH CHANDRAKANTH REDDY (23HP5A0117) (8498027297)",
                     "CH RISHENDRA VARMA  (23HP5A0111) (7075513499)",
                     
+                ],
+                winners:[
+                    "-"
                 ]
             },
             {
@@ -439,6 +496,9 @@ function CseTabs() {
                     "G PRASHANTH (21HP1A0116)  (7288828929)",
                     "M TARUN SAI (21HP1A0124)  (8309603619)",
                     
+                ],
+                winners:[
+                    "-"
                 ]
             },
             {
@@ -453,6 +513,9 @@ function CseTabs() {
                     "Mr V.Surya teja ",
                 ],
                 studentcoordinators: [
+                    "-"
+                ],
+                winners:[
                     "-"
                 ]
             },
@@ -471,6 +534,9 @@ function CseTabs() {
                     "P. Chakrapani (22HP5A0105) (9912756577)",
                     "M.Jagdeesh (22HP1A0103) (9618290811)",
                     "V. Manikanta (24HP1A0115) (7729930321)",
+                ],
+                winners:[
+                    "-"
                 ]
             },
             // {
@@ -525,6 +591,13 @@ function CseTabs() {
                         ))}
                     </ul>
                 </td>
+                <td className="px-4 py-2 border text-xs md:text-lg font-poppins">
+                    <ul className="list-disc list-inside">
+                        {item.winners.map((winners, idx) => ( // Fixed key name here
+                            <li key={idx}>{winners}</li>
+                        ))}
+                    </ul>
+                </td>
             </tr>
         ));
     };
@@ -537,7 +610,7 @@ function CseTabs() {
                              Explore Your Department's Events
                 </h1>
                  <h1 class="text-md md:text-xl  text-gray-700">
-                 Check the event details and schedules for your department to participate in the activities you’re interested in.
+                 Check the event details and schedules for your department to participate in the activities you're interested in.
                 </h1>
             </div>
             <div className="flex flex-wrap gap-4  py-2 md:px-0 md:items-center md:justify-center md:gap-10">
@@ -572,6 +645,7 @@ function CseTabs() {
                             <th className="px-4 py-2 border text-xs  md:text-lg text-white font-poppins">Venue</th>
                             <th className="px-4 py-2 border text-xs md:text-lg text-white font-poppins">Faculty-Coordinators</th>
                             <th className="px-4 py-2 border text-xs md:text-lg text-white font-poppins">Student Volunteers</th>
+                            <th className="px-4 py-2 border text-xs md:text-lg text-white font-poppins">Winners 🏆</th>
                         </tr>
                     </thead>
                     <tbody>{renderRows()}</tbody>
