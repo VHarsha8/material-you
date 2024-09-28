@@ -592,9 +592,9 @@ function CseTabs() {
                     </ul>
                 </td>
                 <td className="px-4 py-2 border text-xs md:text-lg font-poppins">
-                    <ul className="list-disc list-inside">
+                    <ul className="list-disc text-center list-inside">
                         {item.winners.map((winners, idx) => ( // Fixed key name here
-                            <li key={idx}>{winners}</li>
+                            <ul key={idx}>{winners}</ul>
                         ))}
                     </ul>
                 </td>
